@@ -1,0 +1,501 @@
+Log_ID,Source,Timestamp,Reference_Timestamp,Skew_Seconds,Resource_ID,Log_Level,Message
+LOG-0001,cloudwatch,2026/02/23 03:55,2026-02-23T03:55:00Z,29.7,az-vm-196,INFO,Certificate renewal completed
+LOG-0002,azure_monitor,2026-03-09T01:19:17-05:00,2026-03-09T01:20:00Z,-42.1,gcp-inst-229,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0003,cloudwatch,2026-02-25T09:48:52Z,2026-02-25T09:50:00Z,-67.9,az-vm-135,INFO,Memory allocation failure on node
+LOG-0004,azure_monitor,2026-03-06T13:49:31Z,2026-03-06T13:49:00Z,31.4,aws-ec2-101,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0005,syslog,2026-01-10T08:47:18Z,2026-01-10T08:49:00Z,-101.1,az-vm-179,WARN,Rate limit exceeded for API endpoint
+LOG-0006,syslog,2026/02/14 19:42,2026-02-14T19:41:00Z,78.3,gcp-inst-226,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0007,cloudwatch,2026-01-26T21:21:16+01:00,2026-01-26T21:23:00Z,-103.7,aws-ec2-076,ERROR,Connection timeout after 30s
+LOG-0008,app_log,2026-02-13T22:49:32+01:00,2026-02-13T22:51:00Z,-87.0,gcp-inst-268,ERROR,Failed to resolve DNS for endpoint
+LOG-0009,syslog,2026/03/03 19:46,2026-03-03T19:46:00Z,23.4,gcp-inst-270,INFO,Certificate renewal completed
+LOG-0010,cloudwatch,2026-01-22T01:19:41-08:00,2026-01-22T01:18:00Z,101.8,az-vm-185,INFO,Connection timeout after 30s
+LOG-0011,syslog,2026-02-07 20:22:37,2026-02-07T20:24:00Z,-82.8,gcp-inst-273,INFO,Health check passed successfully
+LOG-0012,app_log,2026-01-26T16:29:25-05:00,2026-01-26T16:29:00Z,,az-vm-202,WARN,Connection timeout after 30s
+LOG-0013,gcp_logging,2026-02-14 21:23:18,2026-02-14T21:22:00Z,78.1,aws-ec2-016,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0014,app_log,2026-01-20 10:58:08,2026-01-20T10:57:00Z,68.2,az-vm-117,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0015,app_log,2026-03-15T04:27:49+00:00,2026-03-15T04:27:00Z,49.2,gcp-inst-278,WARN,Health check passed successfully
+LOG-0016,azure_monitor,2026/02/09 22:45,2026-02-09T22:45:00Z,49.1,aws-ec2-081,ERROR,Disk utilization exceeded 90%
+LOG-0017,gcp_logging,2026-03-13 17:44:40,2026-03-13T17:46:00Z,-79.1,gcp-inst-212,DEBUG,Certificate renewal completed
+LOG-0018,azure_monitor,26-02-2026 23:59:16,2026-02-26T23:59:00Z,16.4,aws-ec2-055,WARN,Health check passed successfully
+LOG-0019,azure_monitor,2026/01/04 19:37,2026-01-04T19:39:00Z,-94.0,az-vm-184,INFO,Backup completed successfully
+LOG-0020,syslog,2026-01-18T16:54:25Z,2026-01-18T16:54:00Z,25.4,aws-ec2-071,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0021,syslog,2026-01-29T01:25:01+00:00,2026-01-29T01:26:00Z,-58.2,aws-ec2-105,INFO,Health check passed successfully
+LOG-0022,syslog,2026-02-26T19:31:44Z,2026-02-26T19:31:00Z,44.0,aws-ec2-022,DEBUG,Rate limit exceeded for API endpoint
+LOG-0023,cloudwatch,2026-02-20T19:47:04Z,2026-02-20T19:47:00Z,4.3,gcp-inst-232,DEBUG,Connection timeout after 30s
+LOG-0024,cloudwatch,2026-02-01T16:35:44-05:00,2026-02-01T16:34:00Z,104.1,az-vm-204,ERROR,Certificate renewal completed
+LOG-0025,syslog,2026-03-01T05:25:04+01:00,2026-03-01T05:27:00Z,-115.1,aws-ec2-058,WARN,Service restarted after crash
+LOG-0026,app_log,2026-03-31 17:06:40,2026-03-31T17:08:00Z,-79.4,aws-ec2-104,DEBUG,Disk utilization exceeded 90%
+LOG-0027,cloudwatch,2026-02-02T10:44:25-05:00,2026-02-02T10:44:00Z,25.4,az-vm-186,INFO,Failed to resolve DNS for endpoint
+LOG-0028,app_log,2026-02-19T23:50:13Z,2026-02-19T23:50:00Z,13.4,aws-ec2-088,ERROR,Service restarted after crash
+LOG-0029,syslog,2026-03-26T04:09:21-05:00,2026-03-26T04:10:00Z,-38.5,az-vm-148,WARN,Disk utilization exceeded 90%
+LOG-0030,syslog,2026-01-17T05:59:30Z,2026-01-17T06:00:00Z,-29.6,aws-ec2-003,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0031,cloudwatch,2026-01-28T18:40:35+01:00,2026-01-28T18:42:00Z,-84.6,az-vm-143,WARN,Connection timeout after 30s
+LOG-0032,app_log,2026-01-24 04:02:04,2026-01-24T04:03:00Z,-55.6,az-vm-153,ERROR,Disk utilization exceeded 90%
+LOG-0033,app_log,2026/01/07 03:25,2026-01-07T03:26:00Z,-40.6,aws-ec2-091,DEBUG,Service restarted after crash
+LOG-0034,cloudwatch,16-02-2026 01:04:38,2026-02-16T01:05:00Z,-21.3,gcp-inst-282,INFO,Certificate renewal completed
+LOG-0035,app_log,2026-03-02T04:06:32+00:00,2026-03-02T04:07:00Z,-27.1,aws-ec2-030,INFO,Service restarted after crash
+LOG-0036,gcp_logging,2026-03-22T16:06:41+01:00,2026-03-22T16:05:00Z,101.3,az-vm-182,WARN,Service restarted after crash
+LOG-0037,app_log,2026-03-14T15:32:59-08:00,2026-03-14T15:33:00Z,-0.3,aws-ec2-100,INFO,Disk utilization exceeded 90%
+LOG-0038,app_log,2026-0104 14:40,2026-01-04T14:40:00Z,28.5,gcp-inst-212,INFO,Rate limit exceeded for API endpoint
+LOG-0039,gcp_logging,2026-02-14T17:50:01+05:30,2026-02-14T17:51:00Z,-58.6,az-vm-158,ERROR,Failed to resolve DNS for endpoint
+LOG-0040,app_log,2026/03/12 10:50,2026-03-12T10:49:00Z,101.2,aws-ec2-015,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0041,azure_monitor,2026-02-12T10:59:49Z,2026-02-12T10:59:00Z,49.9,gcp-inst-236,ERROR,Backup completed successfully
+LOG-0042,gcp_logging,2026/02/22 23:02,2026-02-22T23:03:00Z,-24.1,aws-ec2-010,WARN,Service restarted after crash
+LOG-0043,azure_monitor,2026-03-29T10:51:35+05:30,2026-03-29T10:51:00Z,35.5,az-vm-174,DEBUG,Failed to resolve DNS for endpoint
+LOG-0044,gcp_logging,22-01-2026 18:39:35,2026-01-22T18:38:00Z,95.7,az-vm-140,DEBUG,Disk utilization exceeded 90%
+LOG-0045,azure_monitor,2026-03-05T07:21:02+05:30,2026-03-05T07:23:00Z,-117.0,aws-ec2-104,INFO,Backup completed successfully
+LOG-0046,syslog,06-03-2026 00:49:29,2026-03-06T00:51:00Z,-90.0,gcp-inst-269,ERROR,Rate limit exceeded for API endpoint
+LOG-0047,azure_monitor,19-01-2026 03:52:01,2026-01-19T03:52:00Z,1.9,gcp-inst-236,DEBUG,Failed to resolve DNS for endpoint
+LOG-0048,cloudwatch,2026-01-15T00:19:22+05:30,2026-01-15T00:19:00Z,22.4,aws-ec2-053,ERROR,Connection timeout after 30s
+LOG-0049,gcp_logging,2026-03-15T09:39:38Z,2026-03-15T09:40:00Z,-21.5,gcp-inst-226,INFO,Certificate renewal completed
+LOG-0050,gcp_logging,2026-01-20T05:15:02Z,2026-01-20T05:17:00Z,-117.5,az-vm-139,WARN,Certificate renewal completed
+LOG-0051,cloudwatch,2026-03-15T07:11:36-05:00,2026-03-15T07:10:00Z,96.8,aws-ec2-026,INFO,Memory allocation failure on node
+LOG-0052,gcp_logging,2026-01-07T02:28:42+00:00,2026-01-07T02:27:00Z,102.3,gcp-inst-274,INFO,Backup completed successfully
+LOG-0053,syslog,2026-03-14T04:05:50-05:00,2026-03-14T04:05:00Z,50.4,gcp-inst-241,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0054,gcp_logging,19-01-2026 19:15:47,2026-01-19T19:16:00Z,-13.0,az-vm-167,DEBUG,Backup completed successfully
+LOG-0055,gcp_logging,2026/01/04 02:28,2026-01-04T02:30:00Z,-88.7,aws-ec2-066,INFO,Memory allocation failure on node
+LOG-0056,syslog,2026/01/14 10:35,2026-01-14T10:35:00Z,35.1,az-vm-123,WARN,Failed to resolve DNS for endpoint
+LOG-0057,syslog,2026/01/21 15:25,2026-01-21T15:24:00Z,72.5,az-vm-176,WARN,Health check passed successfully
+LOG-0058,cloudwatch,2026/03/26 21:04,2026-03-26T21:04:00Z,25.4,gcp-inst-238,ERROR,Failed to resolve DNS for endpoint
+LOG-0059,app_log,13-01-2026 14:09:35,2026-01-13T14:11:00Z,-84.3,az-vm-195,ERROR,Backup completed successfully
+LOG-0060,azure_monitor,2026-03-24T21:01:10Z,2026-03-24T21:03:00Z,-109.0,az-vm-150,DEBUG,Service restarted after crash
+LOG-0061,gcp_logging,2026-0315 14:13,2026-03-15T14:12:00Z,112.6,gcp-inst-223,ERROR,Disk utilization exceeded 90%
+LOG-0062,gcp_logging,2026-03-16T00:38:48+01:00,2026-03-16T00:39:00Z,-11.5,aws-ec2-028,INFO,Failed to resolve DNS for endpoint
+LOG-0063,syslog,2026/02/15 03:56,2026-02-15T03:55:00Z,61.9,az-vm-196,DEBUG,Memory allocation failure on node
+LOG-0064,syslog,2026-02-25 17:12:56,2026-02-25T17:13:00Z,-3.0,az-vm-185,DEBUG,Health check passed successfully
+LOG-0065,syslog,2026/02/06 21:06,2026-02-06T21:08:00Z,-64.3,aws-ec2-070,INFO,Health check passed successfully
+LOG-0066,syslog,2026-03-24T13:56:47Z,2026-03-24T13:55:00Z,107.3,gcp-inst-283,DEBUG,Memory allocation failure on node
+LOG-0067,azure_monitor,15-02-2026 07:12:00,2026-02-15T07:11:00Z,60.4,az-vm-138,DEBUG,Failed to resolve DNS for endpoint
+LOG-0068,cloudwatch,2026/03/15 11:02,2026-03-15T11:02:00Z,8.2,aws-ec2-041,WARN,Failed to resolve DNS for endpoint
+LOG-0069,cloudwatch,2026/02/05 14:31,2026-02-05T14:33:00Z,-113.4,gcp-inst-277,ERROR,Service restarted after crash
+LOG-0070,syslog,2026/01/07 10:33,2026-01-07T10:34:00Z,-3.7,az-vm-170,DEBUG,Rate limit exceeded for API endpoint
+LOG-0071,app_log,2026-02-07T09:11:55-05:00,2026-02-07T09:10:00Z,115.4,aws-ec2-087,INFO,Certificate renewal completed
+LOG-0072,gcp_logging,2026-03-21T00:16:52+01:00,2026-03-21T00:18:00Z,-67.6,az-vm-144,ERROR,Certificate renewal completed
+LOG-0073,syslog,2026-01-02T23:07:49Z,2026-01-02T23:07:00Z,49.2,aws-ec2-090,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0074,azure_monitor,2026/03/04 05:50,2026-03-04T05:51:00Z,-56.0,aws-ec2-079,DEBUG,Memory allocation failure on node
+LOG-0075,gcp_logging,2026-02-19T07:40:21-08:00,2026-02-19T07:42:00Z,-98.3,aws-ec2-060,INFO,Health check passed successfully
+LOG-0076,syslog,2026-03-01T12:28:15Z,2026-03-01T12:30:00Z,-104.8,aws-ec2-075,DEBUG,Connection timeout after 30s
+LOG-0077,cloudwatch,2026-02-06T14:24:55+01:00,2026-02-06T14:24:00Z,55.4,az-vm-182,DEBUG,Service restarted after crash
+LOG-0078,syslog,2026-03-25T08:22:48Z,2026-03-25T08:21:00Z,108.1,az-vm-124,WARN,Failed to resolve DNS for endpoint
+LOG-0079,cloudwatch,2026-02-13 21:43:37,2026-02-13T21:44:00Z,,aws-ec2-007,DEBUG,Disk utilization exceeded 90%
+LOG-0080,cloudwatch,NULL,2026-03-09T03:43:00Z,73.2,aws-ec2-048,INFO,Service restarted after crash
+LOG-0081,app_log,2026-03-26T06:38:24+01:00,2026-03-26T06:38:00Z,25.0,aws-ec2-095,INFO,Health check passed successfully
+LOG-0082,gcp_logging,02-02-2026 09:28:09,2026-02-02T09:29:00Z,-50.9,az-vm-166,ERROR,Health check passed successfully
+LOG-0083,gcp_logging,2026-01-10T08:47:36+05:30,2026-01-10T08:49:00Z,-83.3,gcp-inst-252,WARN,Service restarted after crash
+LOG-0084,cloudwatch,2026-0220 05:42,2026-02-20T05:41:00Z,68.6,az-vm-133,INFO,Connection timeout after 30s
+LOG-0085,syslog,2026-01-10T02:36:33+05:30,2026-01-10T02:36:00Z,,aws-ec2-020,DEBUG,Certificate renewal completed
+LOG-0086,syslog,2026-01-20T22:21:08Z,2026-01-20T22:21:00Z,9.0,gcp-inst-207,INFO,Failed to resolve DNS for endpoint
+LOG-0087,app_log,2026-01-29T00:24:38Z,2026-01-29T00:24:00Z,38.2,az-vm-184,ERROR,Certificate renewal completed
+LOG-0088,gcp_logging,2026-02-21T01:40:17-05:00,2026-02-21T01:40:00Z,17.6,az-vm-149,WARN,Health check passed successfully
+LOG-0089,cloudwatch,2026/03/12 01:23,2026-03-12T01:24:00Z,-24.1,az-vm-184,DEBUG,Disk utilization exceeded 90%
+LOG-0090,app_log,2026-03-22T14:45:57-05:00,2026-03-22T14:47:00Z,-62.1,aws-ec2-033,ERROR,Backup completed successfully
+LOG-0091,azure_monitor,2026-03-10 13:59:56,2026-03-10T14:01:00Z,-63.4,gcp-inst-268,DEBUG,Failed to resolve DNS for endpoint
+LOG-0092,cloudwatch,2026-01-20T23:35:55Z,2026-01-20T23:37:00Z,-64.3,aws-ec2-024,WARN,Health check passed successfully
+LOG-0093,azure_monitor,2026-01-02 05:38:41,2026-01-02T05:40:00Z,-78.4,aws-ec2-033,INFO,Disk utilization exceeded 90%
+LOG-0094,gcp_logging,2026-03-05 19:50:07,2026-03-05T19:51:00Z,-52.4,gcp-inst-206,ERROR,Disk utilization exceeded 90%
+LOG-0095,app_log,2026-03-29T18:32:09+05:30,2026-03-29T18:34:00Z,-110.2,aws-ec2-062,ERROR,Health check passed successfully
+LOG-0096,cloudwatch,2026-02-23T05:42:50+01:00,2026-02-23T05:44:00Z,-69.9,az-vm-193,WARN,Connection timeout after 30s
+LOG-0097,syslog,2026/03/04 02:01,2026-03-04T02:00:00Z,115.6,aws-ec2-106,WARN,Certificate renewal completed
+LOG-0098,syslog,2026/03/08 14:24,2026-03-08T14:26:00Z,-70.5,aws-ec2-046,ERROR,Rate limit exceeded for API endpoint
+LOG-0099,app_log,2026-02-23T00:33:52Z,2026-02-23T00:35:00Z,-67.1,gcp-inst-238,WARN,Certificate renewal completed
+LOG-0100,syslog,2026-01-07T06:07:22Z,2026-01-07T06:07:00Z,22.2,aws-ec2-082,INFO,Connection timeout after 30s
+LOG-0101,cloudwatch,2026-0324 11:19,2026-03-24T11:18:00Z,,aws-ec2-091,WARN,Connection timeout after 30s
+LOG-0102,gcp_logging,2026-03-04T16:08:14Z,2026-03-04T16:07:00Z,74.1,az-vm-167,WARN,Disk utilization exceeded 90%
+LOG-0103,azure_monitor,2026-02-11T07:04:35+01:00,2026-02-11T07:06:00Z,-84.8,gcp-inst-249,INFO,Memory allocation failure on node
+LOG-0104,syslog,19-01-2026 06:58:21,2026-01-19T06:59:00Z,-38.6,az-vm-184,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0105,syslog,2026-02-12T04:01:07Z,2026-02-12T04:02:00Z,-52.8,aws-ec2-088,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0106,azure_monitor,2026/02/07 19:10,2026-02-07T19:10:00Z,16.6,gcp-inst-284,WARN,Disk utilization exceeded 90%
+LOG-0107,syslog,2026-02-22T16:30:25-05:00,2026-02-22T16:31:00Z,-34.0,az-vm-127,WARN,Rate limit exceeded for API endpoint
+LOG-0108,app_log,2026-02-25 18:14:11,2026-02-25T18:14:00Z,11.0,gcp-inst-214,INFO,Connection timeout after 30s
+LOG-0109,cloudwatch,2026-03-02T23:48:51Z,2026-03-02T23:49:00Z,-8.9,az-vm-124,INFO,Failed to resolve DNS for endpoint
+LOG-0110,cloudwatch,,2026-01-02T22:46:00Z,73.1,az-vm-157,WARN,Backup completed successfully
+LOG-0111,syslog,2026-03-15T23:35:32-08:00,2026-03-15T23:37:00Z,-87.3,gcp-inst-238,INFO,Disk utilization exceeded 90%
+LOG-0112,app_log,2026-02-19T22:20:35Z,2026-02-19T22:21:00Z,-24.4,aws-ec2-107,INFO,Service restarted after crash
+LOG-0113,cloudwatch,2026-02-13T00:00:56Z,2026-02-12T23:59:00Z,116.7,gcp-inst-239,INFO,Rate limit exceeded for API endpoint
+LOG-0114,azure_monitor,2026-02-16T05:40:08-08:00,2026-02-16T05:41:00Z,-52.0,az-vm-123,INFO,Backup completed successfully
+LOG-0115,gcp_logging,2026-03-16T22:13:31Z,2026-03-16T22:13:00Z,31.3,gcp-inst-217,ERROR,Connection timeout after 30s
+LOG-0116,app_log,2026/01/09 11:20,2026-01-09T11:22:00Z,-90.1,gcp-inst-273,ERROR,Backup completed successfully
+LOG-0117,cloudwatch,2026-03-21T11:51:23-05:00,2026-03-21T11:51:00Z,23.2,aws-ec2-045,INFO,Memory allocation failure on node
+LOG-0118,azure_monitor,2026-01-23T09:02:43Z,2026-01-23T09:04:00Z,-76.6,aws-ec2-012,ERROR,Memory allocation failure on node
+LOG-0119,cloudwatch,2026-03-29T18:00:20+05:30,2026-03-29T17:59:00Z,80.8,aws-ec2-012,WARN,Failed to resolve DNS for endpoint
+LOG-0120,syslog,2026/03/24 10:26,2026-03-24T10:26:00Z,18.7,gcp-inst-272,DEBUG,Backup completed successfully
+LOG-0121,azure_monitor,2026-02-08T18:07:36Z,2026-02-08T18:08:00Z,-23.2,az-vm-148,INFO,Health check passed successfully
+LOG-0122,app_log,2026-02-15T09:29:14+00:00,2026-02-15T09:29:00Z,14.2,aws-ec2-079,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0123,azure_monitor,2026/01/15 01:19,2026-01-15T01:20:00Z,-7.1,aws-ec2-018,ERROR,Rate limit exceeded for API endpoint
+LOG-0124,cloudwatch,2026-01-19T11:27:19Z,2026-01-19T11:28:00Z,-40.5,gcp-inst-256,WARN,Backup completed successfully
+LOG-0125,gcp_logging,2026-02-10T04:00:05Z,2026-02-10T04:00:00Z,5.5,az-vm-149,WARN,Service restarted after crash
+LOG-0126,app_log,2026-02-26T10:42:31+05:30,2026-02-26T10:44:00Z,-88.7,gcp-inst-206,WARN,Backup completed successfully
+LOG-0127,gcp_logging,2026-02-15T02:18:21+05:30,2026-02-15T02:20:00Z,-98.5,gcp-inst-276,DEBUG,Disk utilization exceeded 90%
+LOG-0128,gcp_logging,2026-03-07T12:10:23Z,2026-03-07T12:12:00Z,-96.2,gcp-inst-219,ERROR,Memory allocation failure on node
+LOG-0129,cloudwatch,2026-02-17T00:19:18-05:00,2026-02-17T00:18:00Z,78.5,gcp-inst-213,DEBUG,Certificate renewal completed
+LOG-0130,app_log,2026-01-21T23:55:06+00:00,2026-01-21T23:57:00Z,-113.8,az-vm-156,DEBUG,Failed to resolve DNS for endpoint
+LOG-0131,syslog,2026/02/12 02:59,2026-02-12T02:59:00Z,30.7,az-vm-140,DEBUG,Health check passed successfully
+LOG-0132,syslog,2026-03-13T14:45:49-05:00,2026-03-13T14:45:00Z,49.8,aws-ec2-022,ERROR,Service restarted after crash
+LOG-0133,azure_monitor,2026-02-08T15:34:26-05:00,2026-02-08T15:35:00Z,-33.1,aws-ec2-064,ERROR,Memory allocation failure on node
+LOG-0134,gcp_logging,2026-01-23T15:57:29Z,2026-01-23T15:58:00Z,-30.6,aws-ec2-035,ERROR,Service restarted after crash
+LOG-0135,cloudwatch,2026-03-03T18:27:15Z,2026-03-03T18:27:00Z,15.4,aws-ec2-009,ERROR,Health check passed successfully
+LOG-0136,cloudwatch,2026-03-16T01:07:07-05:00,2026-03-16T01:09:00Z,-112.7,az-vm-183,INFO,Certificate renewal completed
+LOG-0137,azure_monitor,07-02-2026 16:40:01,2026-02-07T16:40:00Z,1.7,aws-ec2-086,ERROR,Rate limit exceeded for API endpoint
+LOG-0138,app_log,2026-03-29T09:17:22Z,2026-03-29T09:17:00Z,22.6,aws-ec2-074,INFO,Health check passed successfully
+LOG-0139,azure_monitor,2026-03-08T09:22:49+00:00,2026-03-08T09:23:00Z,-10.6,gcp-inst-258,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0140,app_log,13-03-2026 19:44:03,2026-03-13T19:44:00Z,3.1,aws-ec2-059,DEBUG,Backup completed successfully
+LOG-0141,gcp_logging,2026-01-10T03:53:01-05:00,2026-01-10T03:52:00Z,61.0,gcp-inst-268,ERROR,Health check passed successfully
+LOG-0142,azure_monitor,2026/02/08 00:46,2026-02-08T00:47:00Z,-33.3,az-vm-158,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0143,syslog,17-01-2026 02:27:34,2026-01-17T02:27:00Z,34.1,aws-ec2-022,WARN,Disk utilization exceeded 90%
+LOG-0144,cloudwatch,2026-01-05T21:31:56+05:30,2026-01-05T21:32:00Z,-3.7,aws-ec2-050,INFO,Service restarted after crash
+LOG-0145,gcp_logging,2026-0127 18:55,2026-01-27T18:57:00Z,-100.2,az-vm-179,ERROR,Health check passed successfully
+LOG-0146,cloudwatch,2026-03-06T23:37:25Z,2026-03-06T23:39:00Z,-94.2,aws-ec2-099,ERROR,Health check passed successfully
+LOG-0147,app_log,2026-03-10T00:47:12+05:30,2026-03-10T00:46:00Z,72.8,aws-ec2-093,ERROR,Memory allocation failure on node
+LOG-0148,cloudwatch,2026-02-24T06:33:06Z,2026-02-24T06:32:00Z,66.8,gcp-inst-254,ERROR,Certificate renewal completed
+LOG-0149,app_log,13-03-2026 23:03:29,2026-03-13T23:02:00Z,89.6,gcp-inst-228,WARN,Failed to resolve DNS for endpoint
+LOG-0150,gcp_logging,2026-02-22T09:55:51-05:00,2026-02-22T09:54:00Z,111.4,aws-ec2-054,DEBUG,Backup completed successfully
+LOG-0151,cloudwatch,08-03-2026 21:44:08,2026-03-08T21:43:00Z,68.6,aws-ec2-087,INFO,Rate limit exceeded for API endpoint
+LOG-0152,syslog,26-01-2026 10:12:58,2026-01-26T10:12:00Z,58.9,az-vm-143,ERROR,Memory allocation failure on node
+LOG-0153,gcp_logging,2026-02-15T15:41:48-05:00,2026-02-15T15:42:00Z,-11.5,aws-ec2-056,INFO,Certificate renewal completed
+LOG-0154,cloudwatch,2026-03-04 15:13:16,2026-03-04T15:14:00Z,-43.8,gcp-inst-256,INFO,Health check passed successfully
+LOG-0155,app_log,18-02-2026 19:41:41,2026-02-18T19:43:00Z,-78.2,gcp-inst-239,WARN,Certificate renewal completed
+LOG-0156,app_log,2026-03-26T15:31:05Z,2026-03-26T15:31:00Z,5.1,aws-ec2-017,DEBUG,Disk utilization exceeded 90%
+LOG-0157,azure_monitor,2026/02/19 14:19,2026-02-19T14:20:00Z,,az-vm-156,WARN,Backup completed successfully
+LOG-0158,syslog,2026/02/25 04:18,2026-02-25T04:19:00Z,-1.5,gcp-inst-277,DEBUG,Backup completed successfully
+LOG-0159,gcp_logging,13-03-2026 05:33:15,2026-03-13T05:32:00Z,75.8,az-vm-146,ERROR,Connection timeout after 30s
+LOG-0160,gcp_logging,2026-01-04T18:00:38Z,2026-01-04T18:02:00Z,-82.0,gcp-inst-220,ERROR,Rate limit exceeded for API endpoint
+LOG-0161,app_log,2026-02-22T11:02:29+05:30,2026-02-22T11:03:00Z,-30.3,az-vm-157,INFO,Rate limit exceeded for API endpoint
+LOG-0162,syslog,2026-01-22T00:35:27-05:00,2026-01-22T00:34:00Z,87.7,aws-ec2-012,ERROR,Memory allocation failure on node
+LOG-0163,azure_monitor,2026-03-15T12:20:36+01:00,2026-03-15T12:20:00Z,37.0,az-vm-174,WARN,Service restarted after crash
+LOG-0164,app_log,2026-02-08T11:25:21-08:00,2026-02-08T11:27:00Z,-98.1,aws-ec2-025,ERROR,Service restarted after crash
+LOG-0165,cloudwatch,2026/02/21 07:38,2026-02-21T07:39:00Z,-49.0,az-vm-140,INFO,Service restarted after crash
+LOG-0166,gcp_logging,2026-03-09T15:28:47Z,2026-03-09T15:27:00Z,107.7,gcp-inst-277,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0167,azure_monitor,2026-02-23 12:15:54,2026-02-23T12:16:00Z,-5.6,gcp-inst-265,WARN,Service restarted after crash
+LOG-0168,app_log,2026-03-05 06:42:29,2026-03-05T06:42:00Z,29.1,gcp-inst-223,INFO,Failed to resolve DNS for endpoint
+LOG-0169,syslog,2026-01-26T11:30:09+05:30,2026-01-26T11:29:00Z,69.0,aws-ec2-105,DEBUG,Certificate renewal completed
+LOG-0170,azure_monitor,2026-02-06T20:11:36+00:00,2026-02-06T20:10:00Z,96.1,az-vm-159,DEBUG,Backup completed successfully
+LOG-0171,azure_monitor,NULL,2026-03-13T13:27:00Z,-55.6,az-vm-143,WARN,Connection timeout after 30s
+LOG-0172,cloudwatch,2026-0304 00:02,2026-03-04T00:03:00Z,-49.9,gcp-inst-209,ERROR,Disk utilization exceeded 90%
+LOG-0173,app_log,2026-0220 23:51,2026-02-20T23:53:00Z,-66.7,gcp-inst-269,ERROR,Backup completed successfully
+LOG-0174,syslog,2026-01-12 07:39:48,2026-01-12T07:38:00Z,108.4,az-vm-121,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0175,app_log,2026-01-19T03:12:16+01:00,2026-01-19T03:11:00Z,76.5,az-vm-192,INFO,Rate limit exceeded for API endpoint
+LOG-0176,azure_monitor,2026-03-11T13:30:55Z,2026-03-11T13:30:00Z,55.6,az-vm-189,ERROR,Connection timeout after 30s
+LOG-0177,azure_monitor,2026-03-24T19:02:19-05:00,2026-03-24T19:02:00Z,19.5,az-vm-159,ERROR,Disk utilization exceeded 90%
+LOG-0178,gcp_logging,2026-03-10T07:55:00+00:00,2026-03-10T07:54:00Z,60.5,az-vm-153,WARN,Health check passed successfully
+LOG-0179,cloudwatch,2026-02-26T20:20:32+05:30,2026-02-26T20:20:00Z,32.0,gcp-inst-252,DEBUG,Memory allocation failure on node
+LOG-0180,gcp_logging,2026-02-12T22:27:38Z,2026-02-12T22:27:00Z,38.4,az-vm-181,DEBUG,Service restarted after crash
+LOG-0181,azure_monitor,2026/03/12 23:18,2026-03-12T23:20:00Z,-61.6,aws-ec2-070,INFO,Memory allocation failure on node
+LOG-0182,azure_monitor,2026-01-26 20:17:55,2026-01-26T20:19:00Z,-64.9,gcp-inst-211,ERROR,Backup completed successfully
+LOG-0183,azure_monitor,2026-03-03T23:09:41-08:00,2026-03-03T23:08:00Z,101.2,aws-ec2-094,DEBUG,Memory allocation failure on node
+LOG-0184,azure_monitor,2026-0315 07:01,2026-03-15T07:01:00Z,50.8,gcp-inst-237,WARN,Certificate renewal completed
+LOG-0185,gcp_logging,2026-03-31T05:04:25+01:00,2026-03-31T05:03:00Z,85.7,aws-ec2-061,INFO,Failed to resolve DNS for endpoint
+LOG-0186,azure_monitor,2026-0225 14:51,2026-02-25T14:52:00Z,-45.8,az-vm-137,ERROR,Backup completed successfully
+LOG-0187,gcp_logging,18-02-2026 04:27:12,2026-02-18T04:27:00Z,12.0,aws-ec2-097,DEBUG,Health check passed successfully
+LOG-0188,gcp_logging,2026/02/22 04:02,2026-02-22T04:01:00Z,75.7,gcp-inst-235,INFO,Connection timeout after 30s
+LOG-0189,syslog,02-03-2026 04:53:18,2026-03-02T04:55:00Z,-101.6,az-vm-132,INFO,Disk utilization exceeded 90%
+LOG-0190,app_log,13-03-2026 01:04:14,2026-03-13T01:03:00Z,74.1,aws-ec2-024,INFO,Certificate renewal completed
+LOG-0191,app_log,1970-01-01T00:00:00Z,2026-03-06T19:24:00Z,83.7,aws-ec2-092,ERROR,Health check passed successfully
+LOG-0192,app_log,2026-03-06T15:57:31Z,2026-03-06T15:59:00Z,-88.1,az-vm-134,INFO,Rate limit exceeded for API endpoint
+LOG-0193,syslog,2026-01-06T04:31:40-08:00,2026-01-06T04:31:00Z,40.2,az-vm-136,ERROR,Memory allocation failure on node
+LOG-0194,syslog,2026-01-22T10:47:31+00:00,2026-01-22T10:47:00Z,31.6,aws-ec2-028,WARN,Health check passed successfully
+LOG-0195,syslog,1970-01-01T00:00:00Z,2026-01-05T15:16:00Z,-88.0,az-vm-183,DEBUG,Backup completed successfully
+LOG-0196,azure_monitor,2026-03-05 03:53:17,2026-03-05T03:54:00Z,-42.2,aws-ec2-093,WARN,Failed to resolve DNS for endpoint
+LOG-0197,cloudwatch,2026-02-04T18:56:25Z,2026-02-04T18:57:00Z,-34.5,aws-ec2-093,DEBUG,Disk utilization exceeded 90%
+LOG-0198,cloudwatch,2026-02-01T15:44:19Z,2026-02-01T15:43:00Z,79.7,aws-ec2-055,ERROR,Health check passed successfully
+LOG-0199,gcp_logging,2026/01/04 02:29,2026-01-04T02:29:00Z,19.1,aws-ec2-003,ERROR,Connection timeout after 30s
+LOG-0200,cloudwatch,2026-03-25 19:26:16,2026-03-25T19:28:00Z,-103.9,az-vm-145,ERROR,Connection timeout after 30s
+LOG-0201,syslog,2026-01-10T17:36:36+00:00,2026-01-10T17:38:00Z,-83.9,aws-ec2-084,DEBUG,Memory allocation failure on node
+LOG-0202,syslog,06-02-2026 20:47:18,2026-02-06T20:48:00Z,-41.5,az-vm-159,WARN,Rate limit exceeded for API endpoint
+LOG-0203,syslog,2026-03-27T03:54:11+01:00,2026-03-27T03:53:00Z,72.0,gcp-inst-217,INFO,Memory allocation failure on node
+LOG-0204,syslog,2026/02/17 19:09,2026-02-17T19:11:00Z,-85.6,aws-ec2-080,DEBUG,Failed to resolve DNS for endpoint
+LOG-0205,syslog,2026-03-22T20:31:31+00:00,2026-03-22T20:33:00Z,-88.1,az-vm-154,WARN,Failed to resolve DNS for endpoint
+LOG-0206,app_log,2026-02-24T09:34:55Z,2026-02-24T09:36:00Z,-64.6,aws-ec2-049,DEBUG,Service restarted after crash
+LOG-0207,syslog,2026-02-02T11:16:32+00:00,2026-02-02T11:16:00Z,,az-vm-202,INFO,Disk utilization exceeded 90%
+LOG-0208,gcp_logging,2026-02-23T22:20:43+00:00,2026-02-23T22:19:00Z,103.4,aws-ec2-109,WARN,Disk utilization exceeded 90%
+LOG-0209,syslog,2026-03-19T08:54:52+00:00,2026-03-19T08:55:00Z,,gcp-inst-245,DEBUG,Memory allocation failure on node
+LOG-0210,app_log,2026-03-26T23:37:36Z,2026-03-26T23:38:00Z,-23.7,az-vm-203,ERROR,Disk utilization exceeded 90%
+LOG-0211,azure_monitor,2026-01-17T03:58:11Z,2026-01-17T04:00:00Z,-109.0,aws-ec2-075,WARN,Memory allocation failure on node
+LOG-0212,cloudwatch,2026-03-22T17:10:13+00:00,2026-03-22T17:12:00Z,-106.2,gcp-inst-228,DEBUG,Backup completed successfully
+LOG-0213,cloudwatch,2026-01-03T14:38:17-05:00,2026-01-03T14:37:00Z,77.7,gcp-inst-213,DEBUG,Service restarted after crash
+LOG-0214,app_log,2026/03/18 23:34,2026-03-18T23:35:00Z,-55.6,gcp-inst-250,WARN,Connection timeout after 30s
+LOG-0215,syslog,2026-03-09 00:27:06,2026-03-09T00:27:00Z,6.4,aws-ec2-060,DEBUG,Service restarted after crash
+LOG-0216,azure_monitor,2026-03-24T11:27:02Z,2026-03-24T11:28:00Z,-57.5,gcp-inst-225,WARN,Failed to resolve DNS for endpoint
+LOG-0217,syslog,2026-01-29T18:58:50-08:00,2026-01-29T18:58:00Z,50.6,az-vm-200,DEBUG,Rate limit exceeded for API endpoint
+LOG-0218,azure_monitor,2026-03-02T05:37:18+00:00,2026-03-02T05:39:00Z,-101.4,gcp-inst-252,INFO,Memory allocation failure on node
+LOG-0219,gcp_logging,2026-03-05T09:13:57Z,2026-03-05T09:15:00Z,-62.8,aws-ec2-082,WARN,Failed to resolve DNS for endpoint
+LOG-0220,syslog,2026-01-05T02:19:22-08:00,2026-01-05T02:21:00Z,-97.1,az-vm-182,INFO,Failed to resolve DNS for endpoint
+LOG-0221,cloudwatch,2026-0204 04:54,2026-02-04T04:54:00Z,1.8,gcp-inst-225,DEBUG,Disk utilization exceeded 90%
+LOG-0222,cloudwatch,2026-01-14T19:39:53Z,2026-01-14T19:39:00Z,53.7,aws-ec2-086,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0223,cloudwatch,2026-02-16T05:47:26-08:00,2026-02-16T05:46:00Z,86.5,az-vm-172,WARN,Disk utilization exceeded 90%
+LOG-0224,syslog,2026-01-26T14:25:00+01:00,2026-01-26T14:26:00Z,-59.2,aws-ec2-088,INFO,Certificate renewal completed
+LOG-0225,app_log,2026-02-17T22:46:22Z,2026-02-17T22:48:00Z,-97.8,az-vm-117,WARN,Memory allocation failure on node
+LOG-0226,syslog,2026-02-22T13:58:51+05:30,2026-02-22T13:57:00Z,111.1,gcp-inst-265,INFO,Disk utilization exceeded 90%
+LOG-0227,cloudwatch,2026/02/13 10:24,2026-02-13T10:25:00Z,-40.3,aws-ec2-078,INFO,Failed to resolve DNS for endpoint
+LOG-0228,gcp_logging,2026-0207 13:25,2026-02-07T13:25:00Z,24.1,aws-ec2-005,ERROR,Failed to resolve DNS for endpoint
+LOG-0229,syslog,20-03-2026 04:45:38,2026-03-20T04:44:00Z,98.6,az-vm-155,INFO,Connection timeout after 30s
+LOG-0230,app_log,2026-03-10T10:24:28+05:30,2026-03-10T10:24:00Z,28.8,gcp-inst-262,ERROR,Failed to resolve DNS for endpoint
+LOG-0231,gcp_logging,13-02-2026 20:11:53,2026-02-13T20:10:00Z,113.4,gcp-inst-259,INFO,Connection timeout after 30s
+LOG-0232,cloudwatch,2026-02-17T08:39:14Z,2026-02-17T08:40:00Z,-45.1,aws-ec2-003,DEBUG,Rate limit exceeded for API endpoint
+LOG-0233,app_log,2026-01-31 23:37:47,2026-01-31T23:37:00Z,47.3,az-vm-120,ERROR,Certificate renewal completed
+LOG-0234,syslog,2026-02-06T21:50:08Z,2026-02-06T21:50:00Z,8.7,az-vm-127,INFO,Rate limit exceeded for API endpoint
+LOG-0235,syslog,2026-03-08 18:11:43,2026-03-08T18:12:00Z,-16.6,aws-ec2-042,INFO,Connection timeout after 30s
+LOG-0236,app_log,24-02-2026 04:31:04,2026-02-24T04:30:00Z,64.7,az-vm-136,DEBUG,Memory allocation failure on node
+LOG-0237,azure_monitor,2026-02-26T22:59:27+00:00,2026-02-26T22:59:00Z,27.8,gcp-inst-249,DEBUG,Health check passed successfully
+LOG-0238,azure_monitor,2026-0307 16:06,2026-03-07T16:07:00Z,,az-vm-190,INFO,Service restarted after crash
+LOG-0239,gcp_logging,2026-0222 03:05,2026-02-22T03:07:00Z,-77.4,az-vm-156,ERROR,Backup completed successfully
+LOG-0240,gcp_logging,2026-01-04 04:08:50,2026-01-04T04:09:00Z,-9.4,aws-ec2-111,WARN,Backup completed successfully
+LOG-0241,gcp_logging,2026/01/01 03:36,2026-01-01T03:35:00Z,112.2,az-vm-173,DEBUG,Backup completed successfully
+LOG-0242,azure_monitor,2026-03-19 04:49:38,2026-03-19T04:48:00Z,98.2,az-vm-167,INFO,Service restarted after crash
+LOG-0243,syslog,27-03-2026 19:27:54,2026-03-27T19:26:00Z,114.0,aws-ec2-046,WARN,Connection timeout after 30s
+LOG-0244,app_log,2026-03-15T20:49:37+01:00,2026-03-15T20:50:00Z,-22.9,gcp-inst-278,INFO,Service restarted after crash
+LOG-0245,app_log,2026-03-08T06:46:06+05:30,2026-03-08T06:48:00Z,-113.8,az-vm-141,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0246,cloudwatch,2026-03-16T14:05:12Z,2026-03-16T14:05:00Z,12.8,aws-ec2-012,ERROR,Memory allocation failure on node
+LOG-0247,cloudwatch,2026-0124 13:00,2026-01-24T13:01:00Z,-21.9,gcp-inst-278,WARN,Certificate renewal completed
+LOG-0248,azure_monitor,2026-01-19T05:15:18-08:00,2026-01-19T05:16:00Z,-41.5,aws-ec2-093,INFO,Connection timeout after 30s
+LOG-0249,cloudwatch,2026-02-08T12:07:24+00:00,2026-02-08T12:06:00Z,84.8,az-vm-122,DEBUG,Failed to resolve DNS for endpoint
+LOG-0250,cloudwatch,2026-03-06T12:08:19Z,2026-03-06T12:07:00Z,79.1,az-vm-120,INFO,Certificate renewal completed
+LOG-0251,syslog,2026-03-12T18:41:14Z,2026-03-12T18:43:00Z,-105.8,gcp-inst-257,WARN,Health check passed successfully
+LOG-0252,app_log,2026-02-17T17:10:04Z,2026-02-17T17:10:00Z,4.5,aws-ec2-001,DEBUG,Service restarted after crash
+LOG-0253,gcp_logging,2026-02-07 20:11:56,2026-02-07T20:10:00Z,116.0,az-vm-195,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0254,syslog,2026/03/16 16:16,2026-03-16T16:18:00Z,-104.4,aws-ec2-072,ERROR,Memory allocation failure on node
+LOG-0255,gcp_logging,2026/01/27 19:31,2026-01-27T19:32:00Z,-21.8,gcp-inst-232,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0256,azure_monitor,2026/03/26 10:22,2026-03-26T10:21:00Z,,aws-ec2-002,DEBUG,Connection timeout after 30s
+LOG-0257,app_log,2026-01-02T21:12:53+05:30,2026-01-02T21:11:00Z,113.7,gcp-inst-276,INFO,Backup completed successfully
+LOG-0258,syslog,2026-03-28T03:21:45+05:30,2026-03-28T03:22:00Z,-14.8,aws-ec2-064,DEBUG,Rate limit exceeded for API endpoint
+LOG-0259,gcp_logging,2026-01-25T14:01:01+01:00,2026-01-25T14:00:00Z,61.2,az-vm-156,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0260,syslog,2026-03-05T11:00:05-08:00,2026-03-05T11:02:00Z,,gcp-inst-257,DEBUG,Health check passed successfully
+LOG-0261,azure_monitor,2026-03-12T06:42:20+00:00,2026-03-12T06:42:00Z,20.7,aws-ec2-034,WARN,Certificate renewal completed
+LOG-0262,cloudwatch,2026-0314 07:56,2026-03-14T07:56:00Z,33.9,gcp-inst-273,ERROR,Failed to resolve DNS for endpoint
+LOG-0263,gcp_logging,2026-02-28T00:27:53Z,2026-02-28T00:27:00Z,53.2,gcp-inst-209,ERROR,Disk utilization exceeded 90%
+LOG-0264,azure_monitor,2099-12-31T23:59:59Z,2026-03-29T16:29:00Z,-91.0,gcp-inst-216,DEBUG,Rate limit exceeded for API endpoint
+LOG-0265,azure_monitor,2026-0101 12:10,2026-01-01T12:12:00Z,-112.8,gcp-inst-217,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0266,syslog,2026-01-26 05:19:22,2026-01-26T05:21:00Z,,az-vm-172,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0267,app_log,14-01-2026 15:15:39,2026-01-14T15:15:00Z,39.9,aws-ec2-038,DEBUG,Disk utilization exceeded 90%
+LOG-0268,cloudwatch,22-03-2026 14:35:01,2026-03-22T14:37:00Z,-118.5,aws-ec2-032,DEBUG,Connection timeout after 30s
+LOG-0269,gcp_logging,2026-02-08 19:38:53,2026-02-08T19:40:00Z,-66.1,gcp-inst-206,INFO,Service restarted after crash
+LOG-0270,syslog,2026-02-22T07:55:19Z,2026-02-22T07:55:00Z,,gcp-inst-220,INFO,Rate limit exceeded for API endpoint
+LOG-0271,cloudwatch,2026/03/25 21:48,2026-03-25T21:50:00Z,-91.0,aws-ec2-035,WARN,Service restarted after crash
+LOG-0272,azure_monitor,17-01-2026 20:33:25,2026-01-17T20:32:00Z,85.3,aws-ec2-031,WARN,Certificate renewal completed
+LOG-0273,app_log,16-03-2026 13:32:30,2026-03-16T13:32:00Z,30.5,aws-ec2-076,DEBUG,Certificate renewal completed
+LOG-0274,app_log,2026-03-19 10:16:59,2026-03-19T10:18:00Z,-60.5,gcp-inst-287,INFO,Memory allocation failure on node
+LOG-0275,azure_monitor,2026/02/14 06:11,2026-02-14T06:12:00Z,-35.8,gcp-inst-240,ERROR,Service restarted after crash
+LOG-0276,cloudwatch,2026-03-14T10:37:40Z,2026-03-14T10:39:00Z,-79.7,aws-ec2-002,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0277,syslog,2026-03-01T19:14:44+00:00,2026-03-01T19:13:00Z,104.1,aws-ec2-004,ERROR,Connection timeout after 30s
+LOG-0278,app_log,2026-0110 11:00,2026-01-10T11:01:00Z,-42.9,az-vm-185,INFO,Connection timeout after 30s
+LOG-0279,app_log,2026-01-26T06:16:06+00:00,2026-01-26T06:18:00Z,-113.1,aws-ec2-012,WARN,Certificate renewal completed
+LOG-0280,cloudwatch,2026-01-13T00:52:45+00:00,2026-01-13T00:53:00Z,-14.5,az-vm-157,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0281,cloudwatch,2026-02-17T11:43:31+00:00,2026-02-17T11:42:00Z,91.6,aws-ec2-098,WARN,Failed to resolve DNS for endpoint
+LOG-0282,app_log,2026/02/18 22:21,2026-02-18T22:23:00Z,-85.8,gcp-inst-275,ERROR,Health check passed successfully
+LOG-0283,app_log,2026-0211 07:02,2026-02-11T07:03:00Z,-26.4,gcp-inst-251,WARN,Disk utilization exceeded 90%
+LOG-0284,syslog,2026-03-02T21:40:30-08:00,2026-03-02T21:39:00Z,90.5,gcp-inst-270,DEBUG,Backup completed successfully
+LOG-0285,azure_monitor,2026-03-02T08:35:04Z,2026-03-02T08:37:00Z,-115.3,az-vm-121,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0286,cloudwatch,2026-02-09T13:57:09+05:30,2026-02-09T13:56:00Z,69.4,az-vm-152,DEBUG,Failed to resolve DNS for endpoint
+LOG-0287,syslog,2026-02-15T07:38:30Z,2026-02-15T07:37:00Z,90.7,az-vm-189,DEBUG,Rate limit exceeded for API endpoint
+LOG-0288,cloudwatch,2026-02-04T11:59:45+01:00,2026-02-04T12:01:00Z,-74.0,gcp-inst-263,INFO,Certificate renewal completed
+LOG-0289,gcp_logging,2026-01-30T03:05:57-08:00,2026-01-30T03:07:00Z,-62.3,aws-ec2-098,WARN,Failed to resolve DNS for endpoint
+LOG-0290,app_log,03-02-2026 00:50:49,2026-02-03T00:49:00Z,109.3,aws-ec2-007,DEBUG,Failed to resolve DNS for endpoint
+LOG-0291,app_log,20-01-2026 12:15:44,2026-01-20T12:14:00Z,104.9,gcp-inst-240,DEBUG,Rate limit exceeded for API endpoint
+LOG-0292,syslog,2026-01-11 10:55:46,2026-01-11T10:54:00Z,106.2,aws-ec2-016,ERROR,Health check passed successfully
+LOG-0293,gcp_logging,2026-03-15T04:18:01-05:00,2026-03-15T04:19:00Z,-58.8,gcp-inst-218,DEBUG,Failed to resolve DNS for endpoint
+LOG-0294,gcp_logging,2026/02/08 10:35,2026-02-08T10:37:00Z,-107.1,az-vm-201,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0295,syslog,2026/02/20 02:35,2026-02-20T02:34:00Z,88.5,az-vm-156,INFO,Health check passed successfully
+LOG-0296,azure_monitor,2026-01-14T21:36:49-05:00,2026-01-14T21:35:00Z,,az-vm-146,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0297,syslog,2026-02-07T21:31:56Z,2026-02-07T21:33:00Z,-63.4,aws-ec2-057,WARN,Failed to resolve DNS for endpoint
+LOG-0298,azure_monitor,2026-02-23T15:45:02-05:00,2026-02-23T15:47:00Z,-117.3,aws-ec2-082,ERROR,Service restarted after crash
+LOG-0299,azure_monitor,2026-01-26T16:44:33Z,2026-01-26T16:45:00Z,,gcp-inst-205,WARN,Failed to resolve DNS for endpoint
+LOG-0300,gcp_logging,2026/02/12 18:54,2026-02-12T18:56:00Z,-87.8,gcp-inst-234,ERROR,Certificate renewal completed
+LOG-0301,app_log,20-02-2026 19:51:21,2026-02-20T19:52:00Z,-39.0,gcp-inst-235,DEBUG,Health check passed successfully
+LOG-0302,azure_monitor,2026-03-31T18:04:03+01:00,2026-03-31T18:06:00Z,-116.7,az-vm-150,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0303,cloudwatch,2026-03-05T13:48:59Z,2026-03-05T13:48:00Z,59.4,az-vm-167,DEBUG,Backup completed successfully
+LOG-0304,syslog,2026-01-22T08:12:55Z,2026-01-22T08:13:00Z,-4.5,gcp-inst-205,WARN,Memory allocation failure on node
+LOG-0305,syslog,2026-01-05T00:17:55Z,2026-01-05T00:16:00Z,115.0,aws-ec2-035,INFO,Failed to resolve DNS for endpoint
+LOG-0306,azure_monitor,2026-03-26T07:44:16+05:30,2026-03-26T07:45:00Z,-43.2,aws-ec2-052,WARN,Certificate renewal completed
+LOG-0307,azure_monitor,2026-01-16T17:45:55Z,2026-01-16T17:47:00Z,-64.7,aws-ec2-092,WARN,Connection timeout after 30s
+LOG-0308,gcp_logging,2026-03-28T17:11:57Z,2026-03-28T17:13:00Z,-62.9,aws-ec2-003,INFO,Memory allocation failure on node
+LOG-0309,cloudwatch,2026-0126 07:22,2026-01-26T07:23:00Z,,az-vm-173,WARN,Disk utilization exceeded 90%
+LOG-0310,cloudwatch,2026-01-29T03:51:19Z,2026-01-29T03:51:00Z,19.7,aws-ec2-056,ERROR,Rate limit exceeded for API endpoint
+LOG-0311,syslog,2026-03-13T20:12:52+00:00,2026-03-13T20:12:00Z,52.1,aws-ec2-055,ERROR,Rate limit exceeded for API endpoint
+LOG-0312,azure_monitor,2026-01-23T00:24:01-08:00,2026-01-23T00:25:00Z,-58.6,az-vm-189,INFO,Disk utilization exceeded 90%
+LOG-0313,app_log,28-01-2026 13:18:59,2026-01-28T13:19:00Z,-0.1,aws-ec2-088,ERROR,Disk utilization exceeded 90%
+LOG-0314,azure_monitor,2026-03-18T10:40:21-08:00,2026-03-18T10:40:00Z,21.3,gcp-inst-247,INFO,Rate limit exceeded for API endpoint
+LOG-0315,azure_monitor,2026-01-03T19:57:45Z,2026-01-03T19:58:00Z,-14.1,aws-ec2-007,WARN,Connection timeout after 30s
+LOG-0316,cloudwatch,2026-03-20T03:17:34-05:00,2026-03-20T03:19:00Z,-85.7,az-vm-152,WARN,Health check passed successfully
+LOG-0317,gcp_logging,2026-02-18T06:42:55-08:00,2026-02-18T06:41:00Z,115.4,aws-ec2-021,DEBUG,Certificate renewal completed
+LOG-0318,cloudwatch,2026-0104 07:53,2026-01-04T07:54:00Z,-18.9,az-vm-128,WARN,Service restarted after crash
+LOG-0319,cloudwatch,2026-0218 16:18,2026-02-18T16:20:00Z,-97.8,aws-ec2-027,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0320,azure_monitor,2026-01-17T02:11:39Z,2026-01-17T02:11:00Z,39.7,gcp-inst-219,DEBUG,Certificate renewal completed
+LOG-0321,app_log,2026-01-22T23:10:49Z,2026-01-22T23:12:00Z,-70.6,aws-ec2-104,ERROR,Backup completed successfully
+LOG-0322,syslog,11-01-2026 11:26:28,2026-01-11T11:25:00Z,88.2,gcp-inst-247,INFO,Memory allocation failure on node
+LOG-0323,app_log,24-02-2026 02:47:36,2026-02-24T02:48:00Z,-24.0,az-vm-132,DEBUG,Backup completed successfully
+LOG-0324,syslog,2026-02-09T14:16:23+00:00,2026-02-09T14:18:00Z,-96.4,aws-ec2-003,INFO,Failed to resolve DNS for endpoint
+LOG-0325,gcp_logging,2026-02-17T15:25:52Z,2026-02-17T15:25:00Z,52.8,az-vm-158,INFO,Memory allocation failure on node
+LOG-0326,gcp_logging,05-01-2026 03:23:19,2026-01-05T03:24:00Z,-40.5,az-vm-179,DEBUG,Rate limit exceeded for API endpoint
+LOG-0327,cloudwatch,2026-0331 01:39,2026-03-31T01:41:00Z,-85.4,az-vm-186,INFO,Health check passed successfully
+LOG-0328,app_log,2026-0203 19:28,2026-02-03T19:29:00Z,-42.3,aws-ec2-083,INFO,Disk utilization exceeded 90%
+LOG-0329,cloudwatch,2026-01-12T20:44:47Z,2026-01-12T20:45:00Z,-12.3,aws-ec2-097,DEBUG,Health check passed successfully
+LOG-0330,syslog,24-02-2026 08:45:58,2026-02-24T08:44:00Z,118.1,aws-ec2-046,INFO,Service restarted after crash
+LOG-0331,gcp_logging,,2026-02-14T04:17:00Z,51.6,aws-ec2-087,DEBUG,Connection timeout after 30s
+LOG-0332,syslog,2026-01-13T02:49:02-08:00,2026-01-13T02:49:00Z,3.0,aws-ec2-096,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0333,azure_monitor,2026-03-04T05:31:54+00:00,2026-03-04T05:32:00Z,-5.9,aws-ec2-099,ERROR,Memory allocation failure on node
+LOG-0334,gcp_logging,2026-02-26T20:58:44+05:30,2026-02-26T20:58:00Z,44.2,az-vm-142,INFO,Rate limit exceeded for API endpoint
+LOG-0335,gcp_logging,04-01-2026 18:13:19,2026-01-04T18:15:00Z,,aws-ec2-004,INFO,Disk utilization exceeded 90%
+LOG-0336,syslog,28-01-2026 16:51:36,2026-01-28T16:50:00Z,96.2,gcp-inst-220,ERROR,Rate limit exceeded for API endpoint
+LOG-0337,syslog,2026/03/29 10:20,2026-03-29T10:20:00Z,52.9,az-vm-183,ERROR,Disk utilization exceeded 90%
+LOG-0338,azure_monitor,NULL,2026-01-01T14:55:00Z,27.0,aws-ec2-063,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0339,azure_monitor,,2026-02-17T14:39:00Z,44.4,az-vm-165,INFO,Rate limit exceeded for API endpoint
+LOG-0340,app_log,06-01-2026 23:19:28,2026-01-06T23:20:00Z,-32.0,az-vm-179,DEBUG,Backup completed successfully
+LOG-0341,app_log,2026-03-26 22:55:36,2026-03-26T22:57:00Z,-83.1,gcp-inst-259,INFO,Health check passed successfully
+LOG-0342,syslog,2026-03-05T02:19:59-05:00,2026-03-05T02:19:00Z,59.6,aws-ec2-060,DEBUG,Failed to resolve DNS for endpoint
+LOG-0343,cloudwatch,2026-01-31T07:11:03-08:00,2026-01-31T07:13:00Z,-116.7,az-vm-197,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0344,app_log,2026/02/02 21:30,2026-02-02T21:30:00Z,20.5,gcp-inst-252,INFO,Rate limit exceeded for API endpoint
+LOG-0345,syslog,2026/01/29 18:48,2026-01-29T18:49:00Z,-52.2,gcp-inst-224,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0346,cloudwatch,2026/02/03 03:16,2026-02-03T03:18:00Z,-65.3,aws-ec2-066,ERROR,Memory allocation failure on node
+LOG-0347,syslog,2026-03-15T22:58:24-08:00,2026-03-15T23:00:00Z,-95.4,aws-ec2-065,WARN,Disk utilization exceeded 90%
+LOG-0348,gcp_logging,2026-02-20 00:33:37,2026-02-20T00:34:00Z,-22.1,gcp-inst-256,DEBUG,Health check passed successfully
+LOG-0349,cloudwatch,2026/03/18 09:09,2026-03-18T09:09:00Z,41.9,az-vm-159,INFO,Certificate renewal completed
+LOG-0350,syslog,2026-03-15T15:39:59-08:00,2026-03-15T15:40:00Z,-0.6,aws-ec2-079,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0351,syslog,2026-03-31T23:03:33+00:00,2026-03-31T23:03:00Z,33.1,aws-ec2-012,DEBUG,Rate limit exceeded for API endpoint
+LOG-0352,app_log,24-02-2026 21:30:30,2026-02-24T21:30:00Z,30.9,az-vm-145,WARN,Failed to resolve DNS for endpoint
+LOG-0353,gcp_logging,2026-02-20T03:06:12Z,2026-02-20T03:08:00Z,-107.5,aws-ec2-084,WARN,Backup completed successfully
+LOG-0354,azure_monitor,31-03-2026 15:17:25,2026-03-31T15:18:00Z,-34.8,aws-ec2-005,ERROR,Service restarted after crash
+LOG-0355,syslog,2026/01/14 21:49,2026-01-14T21:50:00Z,-42.3,aws-ec2-087,INFO,Disk utilization exceeded 90%
+LOG-0356,gcp_logging,2026/02/15 15:10,2026-02-15T15:11:00Z,-45.9,aws-ec2-077,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0357,syslog,05-01-2026 03:13:41,2026-01-05T03:15:00Z,-78.2,aws-ec2-046,DEBUG,Memory allocation failure on node
+LOG-0358,syslog,2026/02/05 20:39,2026-02-05T20:41:00Z,-60.7,gcp-inst-261,WARN,Connection timeout after 30s
+LOG-0359,azure_monitor,2026-03-17T18:34:18Z,2026-03-17T18:36:00Z,-101.6,gcp-inst-223,ERROR,Service restarted after crash
+LOG-0360,cloudwatch,2026-01-17T03:18:05Z,2026-01-17T03:20:00Z,-114.5,gcp-inst-275,DEBUG,Disk utilization exceeded 90%
+LOG-0361,azure_monitor,2026-0308 18:34,2026-03-08T18:34:00Z,34.8,aws-ec2-061,WARN,Service restarted after crash
+LOG-0362,azure_monitor,2026/03/30 05:00,2026-03-30T05:00:00Z,36.1,aws-ec2-083,INFO,Failed to resolve DNS for endpoint
+LOG-0363,app_log,2026-02-02T01:05:00+05:30,2026-02-02T01:05:00Z,0.7,az-vm-128,ERROR,Connection timeout after 30s
+LOG-0364,gcp_logging,2026-03-08T09:41:16Z,2026-03-08T09:42:00Z,-43.2,az-vm-181,WARN,Disk utilization exceeded 90%
+LOG-0365,app_log,2026/03/26 01:13,2026-03-26T01:15:00Z,-68.5,az-vm-184,ERROR,Health check passed successfully
+LOG-0366,azure_monitor,2026-03-21T13:03:31Z,2026-03-21T13:04:00Z,-28.7,aws-ec2-043,ERROR,Memory allocation failure on node
+LOG-0367,azure_monitor,30-03-2026 04:35:37,2026-03-30T04:34:00Z,97.8,gcp-inst-262,WARN,Memory allocation failure on node
+LOG-0368,cloudwatch,2026-01-20T10:48:58Z,2026-01-20T10:50:00Z,-61.6,gcp-inst-281,DEBUG,Disk utilization exceeded 90%
+LOG-0369,azure_monitor,2026-02-12T20:06:20+05:30,2026-02-12T20:05:00Z,80.0,az-vm-194,WARN,Memory allocation failure on node
+LOG-0370,syslog,2026-01-14T03:11:45-08:00,2026-01-14T03:11:00Z,45.1,az-vm-145,ERROR,Service restarted after crash
+LOG-0371,app_log,2026/01/13 01:08,2026-01-13T01:10:00Z,-105.1,gcp-inst-207,DEBUG,Service restarted after crash
+LOG-0372,azure_monitor,2026-01-17T08:00:25Z,2026-01-17T08:00:00Z,25.6,az-vm-137,INFO,Rate limit exceeded for API endpoint
+LOG-0373,syslog,2026-02-01T21:39:27Z,2026-02-01T21:38:00Z,87.5,az-vm-142,DEBUG,Failed to resolve DNS for endpoint
+LOG-0374,gcp_logging,2026-01-30 09:40:53,2026-01-30T09:40:00Z,53.7,aws-ec2-041,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0375,cloudwatch,2026-0112 05:37,2026-01-12T05:36:00Z,104.6,gcp-inst-218,WARN,Backup completed successfully
+LOG-0376,syslog,,2026-03-05T16:43:00Z,46.6,aws-ec2-098,INFO,Memory allocation failure on node
+LOG-0377,azure_monitor,2026/03/31 17:45,2026-03-31T17:47:00Z,-119.7,gcp-inst-269,WARN,Health check passed successfully
+LOG-0378,syslog,2026-01-10T11:51:38+05:30,2026-01-10T11:53:00Z,-81.2,az-vm-174,WARN,Failed to resolve DNS for endpoint
+LOG-0379,app_log,2026-01-16T09:17:44Z,2026-01-16T09:19:00Z,-75.9,az-vm-157,INFO,Backup completed successfully
+LOG-0380,cloudwatch,,2026-03-21T15:03:00Z,96.9,aws-ec2-096,DEBUG,Rate limit exceeded for API endpoint
+LOG-0381,syslog,,2026-01-02T03:27:00Z,-65.1,az-vm-129,WARN,Backup completed successfully
+LOG-0382,syslog,2026/02/20 11:20,2026-02-20T11:19:00Z,113.5,gcp-inst-225,WARN,Health check passed successfully
+LOG-0383,gcp_logging,1970-01-01T00:00:00Z,2026-02-15T23:27:00Z,-113.0,az-vm-203,DEBUG,Rate limit exceeded for API endpoint
+LOG-0384,syslog,2026/01/05 05:43,2026-01-05T05:42:00Z,88.8,aws-ec2-066,ERROR,Memory allocation failure on node
+LOG-0385,cloudwatch,06-03-2026 23:59:39,2026-03-06T23:59:00Z,39.1,aws-ec2-065,WARN,Rate limit exceeded for API endpoint
+LOG-0386,syslog,2026-0306 00:48,2026-03-06T00:49:00Z,-53.8,aws-ec2-005,DEBUG,Backup completed successfully
+LOG-0387,azure_monitor,2026-02-07T09:29:34+05:30,2026-02-07T09:31:00Z,-85.7,az-vm-135,WARN,Memory allocation failure on node
+LOG-0388,app_log,2026-01-26T15:44:12+01:00,2026-01-26T15:45:00Z,-47.6,aws-ec2-077,WARN,Disk utilization exceeded 90%
+LOG-0389,app_log,2026-01-17T12:00:48+05:30,2026-01-17T12:02:00Z,-71.5,az-vm-195,DEBUG,Failed to resolve DNS for endpoint
+LOG-0390,cloudwatch,2026-02-09T22:39:26Z,2026-02-09T22:40:00Z,-33.4,aws-ec2-027,ERROR,Disk utilization exceeded 90%
+LOG-0391,cloudwatch,2026-02-04T11:17:25+05:30,2026-02-04T11:17:00Z,25.4,aws-ec2-027,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0392,syslog,2026-02-06T15:16:12Z,2026-02-06T15:17:00Z,-47.9,az-vm-156,INFO,Disk utilization exceeded 90%
+LOG-0393,gcp_logging,27-03-2026 00:43:43,2026-03-27T00:43:00Z,43.4,gcp-inst-271,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0394,app_log,2026-03-25T08:12:10+01:00,2026-03-25T08:13:00Z,-49.5,aws-ec2-098,WARN,Backup completed successfully
+LOG-0395,azure_monitor,2026-01-13T02:33:36Z,2026-01-13T02:34:00Z,-23.8,aws-ec2-079,INFO,Health check passed successfully
+LOG-0396,app_log,2026-0125 13:35,2026-01-25T13:35:00Z,47.0,az-vm-188,DEBUG,Disk utilization exceeded 90%
+LOG-0397,gcp_logging,2026/02/25 02:28,2026-02-25T02:30:00Z,-115.9,aws-ec2-067,ERROR,Connection timeout after 30s
+LOG-0398,syslog,2026/03/14 01:49,2026-03-14T01:50:00Z,-37.2,gcp-inst-263,INFO,Health check passed successfully
+LOG-0399,azure_monitor,2026-02-26T16:23:46+00:00,2026-02-26T16:24:00Z,-13.2,aws-ec2-112,INFO,Failed to resolve DNS for endpoint
+LOG-0400,gcp_logging,28-02-2026 16:44:31,2026-02-28T16:45:00Z,-28.9,gcp-inst-283,INFO,Health check passed successfully
+LOG-0401,gcp_logging,2026-0129 01:32,2026-01-29T01:34:00Z,-62.3,az-vm-139,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0402,app_log,2026-01-27T17:08:20+00:00,2026-01-27T17:07:00Z,80.8,gcp-inst-210,ERROR,Rate limit exceeded for API endpoint
+LOG-0403,cloudwatch,2026-01-08T20:53:21Z,2026-01-08T20:52:00Z,81.3,aws-ec2-055,DEBUG,Certificate renewal completed
+LOG-0404,gcp_logging,2026-03-22T20:38:38-05:00,2026-03-22T20:38:00Z,38.0,aws-ec2-080,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0405,azure_monitor,2026-02-25 11:08:11,2026-02-25T11:09:00Z,-48.8,aws-ec2-091,WARN,Service restarted after crash
+LOG-0406,azure_monitor,2026-03-04 23:10:02,2026-03-04T23:11:00Z,-57.5,aws-ec2-097,INFO,Health check passed successfully
+LOG-0407,app_log,2026-01-10T13:16:38+05:30,2026-01-10T13:15:00Z,98.7,aws-ec2-052,DEBUG,Memory allocation failure on node
+LOG-0408,cloudwatch,2026-01-03T03:50:10+01:00,2026-01-03T03:52:00Z,-109.8,aws-ec2-007,INFO,Disk utilization exceeded 90%
+LOG-0409,app_log,2026-03-11 23:50:17,2026-03-11T23:52:00Z,-102.4,aws-ec2-084,ERROR,Rate limit exceeded for API endpoint
+LOG-0410,cloudwatch,2026-03-03T04:13:18-08:00,2026-03-03T04:15:00Z,,aws-ec2-053,DEBUG,Health check passed successfully
+LOG-0411,azure_monitor,2026-0101 07:02,2026-01-01T07:01:00Z,83.1,az-vm-197,INFO,Backup completed successfully
+LOG-0412,gcp_logging,2026-01-22T03:15:57+05:30,2026-01-22T03:14:00Z,117.4,aws-ec2-023,WARN,Health check passed successfully
+LOG-0413,gcp_logging,2026/02/24 16:21,2026-02-24T16:21:00Z,21.5,az-vm-147,ERROR,Disk utilization exceeded 90%
+LOG-0414,azure_monitor,04-02-2026 15:40:44,2026-02-04T15:42:00Z,-75.9,aws-ec2-076,ERROR,Health check passed successfully
+LOG-0415,cloudwatch,2026/02/19 14:46,2026-02-19T14:46:00Z,57.2,az-vm-143,WARN,Disk utilization exceeded 90%
+LOG-0416,syslog,2026/02/11 04:10,2026-02-11T04:11:00Z,-17.7,gcp-inst-212,ERROR,Health check passed successfully
+LOG-0417,azure_monitor,2026-03-25T07:25:29Z,2026-03-25T07:24:00Z,89.8,gcp-inst-216,WARN,Disk utilization exceeded 90%
+LOG-0418,azure_monitor,2026-0131 11:01,2026-01-31T11:00:00Z,111.0,aws-ec2-031,ERROR,Rate limit exceeded for API endpoint
+LOG-0419,azure_monitor,2026-01-18T09:30:51+00:00,2026-01-18T09:29:00Z,111.2,aws-ec2-061,WARN,Memory allocation failure on node
+LOG-0420,app_log,2026-01-04 22:25:17,2026-01-04T22:27:00Z,-102.1,aws-ec2-016,WARN,Rate limit exceeded for API endpoint
+LOG-0421,azure_monitor,2026-01-19T02:16:34Z,2026-01-19T02:15:00Z,94.2,aws-ec2-072,ERROR,Backup completed successfully
+LOG-0422,azure_monitor,2026-02-22T23:19:21+05:30,2026-02-22T23:21:00Z,-98.7,aws-ec2-089,WARN,Connection timeout after 30s
+LOG-0423,gcp_logging,2026-0220 13:42,2026-02-20T13:43:00Z,-5.5,gcp-inst-257,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0424,azure_monitor,24-02-2026 05:17:02,2026-02-24T05:17:00Z,2.6,gcp-inst-206,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0425,syslog,2026-02-20T05:52:07Z,2026-02-20T05:52:00Z,7.1,gcp-inst-208,DEBUG,Health check passed successfully
+LOG-0426,app_log,07-01-2026 11:39:43,2026-01-07T11:41:00Z,-76.2,az-vm-172,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0427,gcp_logging,2026-02-06T05:32:47+00:00,2026-02-06T05:34:00Z,-72.7,aws-ec2-017,WARN,Certificate renewal completed
+LOG-0428,gcp_logging,2026-01-11T18:37:59-08:00,2026-01-11T18:36:00Z,,aws-ec2-005,ERROR,Certificate renewal completed
+LOG-0429,cloudwatch,2026-02-20T16:13:23+01:00,2026-02-20T16:12:00Z,83.4,aws-ec2-052,WARN,Connection timeout after 30s
+LOG-0430,azure_monitor,2026/03/17 12:30,2026-03-17T12:30:00Z,42.2,aws-ec2-041,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0431,azure_monitor,2026-01-28T21:42:43-08:00,2026-01-28T21:41:00Z,103.1,gcp-inst-221,INFO,Memory allocation failure on node
+LOG-0432,syslog,2026-01-31T06:39:54+05:30,2026-01-31T06:39:00Z,55.0,aws-ec2-074,ERROR,Failed to resolve DNS for endpoint
+LOG-0433,gcp_logging,2026/01/12 15:07,2026-01-12T15:06:00Z,70.2,az-vm-181,INFO,Disk utilization exceeded 90%
+LOG-0434,syslog,2026/01/23 22:50,2026-01-23T22:49:00Z,119.2,aws-ec2-072,INFO,Service restarted after crash
+LOG-0435,azure_monitor,2026-03-04T01:22:48Z,2026-03-04T01:23:00Z,-11.9,gcp-inst-263,ERROR,Rate limit exceeded for API endpoint
+LOG-0436,cloudwatch,2026/01/11 21:25,2026-01-11T21:26:00Z,-28.5,aws-ec2-030,WARN,Failed to resolve DNS for endpoint
+LOG-0437,azure_monitor,2026-01-02T04:55:22Z,2026-01-02T04:54:00Z,82.5,gcp-inst-237,INFO,Rate limit exceeded for API endpoint
+LOG-0438,azure_monitor,01-03-2026 14:41:38,2026-03-01T14:41:00Z,38.2,az-vm-204,DEBUG,Auto-scaling triggered: adding 2 instances
+LOG-0439,syslog,2026-02-21T10:05:59-05:00,2026-02-21T10:04:00Z,119.8,aws-ec2-020,WARN,Backup completed successfully
+LOG-0440,gcp_logging,19-01-2026 20:14:01,2026-01-19T20:13:00Z,61.9,gcp-inst-243,WARN,Connection timeout after 30s
+LOG-0441,cloudwatch,2026-01-28T00:47:32-08:00,2026-01-28T00:48:00Z,-27.6,gcp-inst-208,INFO,Certificate renewal completed
+LOG-0442,cloudwatch,2026-02-27 13:31:06,2026-02-27T13:33:00Z,-113.6,gcp-inst-220,ERROR,Certificate renewal completed
+LOG-0443,azure_monitor,2026-0122 06:21,2026-01-22T06:22:00Z,-2.2,gcp-inst-224,ERROR,Service restarted after crash
+LOG-0444,app_log,2026/02/19 00:35,2026-02-19T00:35:00Z,11.7,az-vm-166,ERROR,Connection timeout after 30s
+LOG-0445,syslog,2026-01-20T14:57:08+05:30,2026-01-20T14:59:00Z,-111.9,gcp-inst-231,WARN,Backup completed successfully
+LOG-0446,app_log,23-03-2026 18:04:15,2026-03-23T18:06:00Z,-104.7,az-vm-194,WARN,Rate limit exceeded for API endpoint
+LOG-0447,cloudwatch,2026-01-27T06:42:01-08:00,2026-01-27T06:43:00Z,-58.3,gcp-inst-258,INFO,Backup completed successfully
+LOG-0448,gcp_logging,2026-03-25T14:27:21+00:00,2026-03-25T14:26:00Z,81.1,gcp-inst-235,DEBUG,Rate limit exceeded for API endpoint
+LOG-0449,syslog,2026/01/23 17:39,2026-01-23T17:38:00Z,86.2,aws-ec2-051,INFO,Disk utilization exceeded 90%
+LOG-0450,app_log,2026-0112 20:00,2026-01-12T20:01:00Z,-10.6,aws-ec2-052,DEBUG,Failed to resolve DNS for endpoint
+LOG-0451,app_log,2026-03-16T01:40:34Z,2026-03-16T01:42:00Z,-85.2,aws-ec2-101,DEBUG,Disk utilization exceeded 90%
+LOG-0452,syslog,,2026-02-14T14:26:00Z,17.4,az-vm-192,WARN,Failed to resolve DNS for endpoint
+LOG-0453,syslog,2026/02/06 08:55,2026-02-06T08:56:00Z,-23.1,aws-ec2-003,DEBUG,Connection timeout after 30s
+LOG-0454,app_log,2026-01-02T00:09:40+00:00,2026-01-02T00:09:00Z,40.9,gcp-inst-221,WARN,Failed to resolve DNS for endpoint
+LOG-0455,app_log,2026-02-20T06:39:39Z,2026-02-20T06:39:00Z,39.4,az-vm-200,WARN,Memory allocation failure on node
+LOG-0456,app_log,10-02-2026 16:08:54,2026-02-10T16:10:00Z,-66.0,az-vm-134,WARN,Rate limit exceeded for API endpoint
+LOG-0457,app_log,2026-0127 02:03,2026-01-27T02:05:00Z,,aws-ec2-041,DEBUG,Connection timeout after 30s
+LOG-0458,azure_monitor,2026-01-17T14:39:42+01:00,2026-01-17T14:40:00Z,-17.0,az-vm-126,DEBUG,Certificate renewal completed
+LOG-0459,app_log,2026-03-26 01:15:51,2026-03-26T01:17:00Z,-68.6,aws-ec2-057,DEBUG,Service restarted after crash
+LOG-0460,gcp_logging,2026-0116 03:07,2026-01-16T03:09:00Z,-113.7,aws-ec2-107,DEBUG,Disk utilization exceeded 90%
+LOG-0461,syslog,2026-03-04T00:24:02Z,2026-03-04T00:26:00Z,-117.6,az-vm-161,DEBUG,Health check passed successfully
+LOG-0462,cloudwatch,2026-01-24T09:00:19-08:00,2026-01-24T09:00:00Z,19.2,az-vm-178,DEBUG,Service restarted after crash
+LOG-0463,cloudwatch,2026-03-18T16:58:15Z,2026-03-18T17:00:00Z,-104.5,gcp-inst-266,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0464,azure_monitor,2026-02-16T03:55:40-05:00,2026-02-16T03:57:00Z,-79.7,aws-ec2-103,INFO,Rate limit exceeded for API endpoint
+LOG-0465,syslog,2026-0312 20:19,2026-03-12T20:18:00Z,108.5,az-vm-129,WARN,Auto-scaling triggered: adding 2 instances
+LOG-0466,app_log,2026-03-29T22:16:12+00:00,2026-03-29T22:17:00Z,-47.7,gcp-inst-250,DEBUG,Backup completed successfully
+LOG-0467,syslog,2026-02-24T19:45:40-08:00,2026-02-24T19:47:00Z,-79.1,az-vm-192,INFO,Backup completed successfully
+LOG-0468,cloudwatch,2026-01-22T01:33:24-08:00,2026-01-22T01:32:00Z,84.6,gcp-inst-220,WARN,Rate limit exceeded for API endpoint
+LOG-0469,cloudwatch,,2026-02-01T02:13:00Z,-15.4,aws-ec2-006,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0470,app_log,2026-03-01T18:48:46+00:00,2026-03-01T18:50:00Z,-74.0,aws-ec2-053,ERROR,Service restarted after crash
+LOG-0471,gcp_logging,2026-03-27 02:35:50,2026-03-27T02:36:00Z,-9.4,aws-ec2-102,WARN,Connection timeout after 30s
+LOG-0472,azure_monitor,2026/03/05 15:01,2026-03-05T15:02:00Z,-9.5,az-vm-197,WARN,Service restarted after crash
+LOG-0473,syslog,2026-01-03T09:01:42-05:00,2026-01-03T09:01:00Z,42.7,aws-ec2-019,INFO,Rate limit exceeded for API endpoint
+LOG-0474,gcp_logging,2026-03-24T00:05:49-08:00,2026-03-24T00:04:00Z,109.8,gcp-inst-205,INFO,Failed to resolve DNS for endpoint
+LOG-0475,cloudwatch,2026-02-10 15:40:17,2026-02-10T15:39:00Z,77.9,aws-ec2-053,INFO,Auto-scaling triggered: adding 2 instances
+LOG-0476,cloudwatch,2026-01-07T00:09:19-08:00,2026-01-07T00:08:00Z,79.4,gcp-inst-276,INFO,Connection timeout after 30s
+LOG-0477,app_log,03-02-2026 01:08:18,2026-02-03T01:07:00Z,78.3,az-vm-195,ERROR,Health check passed successfully
+LOG-0478,syslog,2026/01/18 18:27,2026-01-18T18:29:00Z,-79.2,aws-ec2-063,WARN,Service restarted after crash
+LOG-0479,azure_monitor,2026-03-03T21:30:38-08:00,2026-03-03T21:31:00Z,-21.4,aws-ec2-043,ERROR,Failed to resolve DNS for endpoint
+LOG-0480,syslog,2026-02-01T21:40:24+05:30,2026-02-01T21:41:00Z,-35.3,aws-ec2-111,DEBUG,Memory allocation failure on node
+LOG-0481,gcp_logging,25-01-2026 15:07:48,2026-01-25T15:06:00Z,108.8,aws-ec2-079,INFO,Health check passed successfully
+LOG-0482,syslog,2026-01-29T11:24:44-08:00,2026-01-29T11:24:00Z,44.1,gcp-inst-217,WARN,Certificate renewal completed
+LOG-0483,syslog,2026-03-15T20:04:07+05:30,2026-03-15T20:06:00Z,-112.6,gcp-inst-244,DEBUG,Rate limit exceeded for API endpoint
+LOG-0484,syslog,2026-02-03T03:58:42Z,2026-02-03T03:59:00Z,-17.5,gcp-inst-261,ERROR,Connection timeout after 30s
+LOG-0485,azure_monitor,2026-02-26T08:24:38Z,2026-02-26T08:23:00Z,98.9,az-vm-142,DEBUG,Failed to resolve DNS for endpoint
+LOG-0486,cloudwatch,2026-02-25 03:41:45,2026-02-25T03:43:00Z,-74.9,az-vm-137,WARN,Disk utilization exceeded 90%
+LOG-0487,cloudwatch,2026-03-10T03:18:37-08:00,2026-03-10T03:17:00Z,97.2,gcp-inst-254,WARN,Health check passed successfully
+LOG-0488,app_log,2026-0127 11:38,2026-01-27T11:40:00Z,-95.8,gcp-inst-245,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0489,cloudwatch,2026/01/22 10:44,2026-01-22T10:43:00Z,71.2,gcp-inst-220,ERROR,Connection timeout after 30s
+LOG-0490,syslog,2026/01/23 08:54,2026-01-23T08:56:00Z,-100.8,gcp-inst-251,WARN,Backup completed successfully
+LOG-0491,app_log,2026-01-15T01:53:40Z,2026-01-15T01:52:00Z,100.8,aws-ec2-076,INFO,Disk utilization exceeded 90%
+LOG-0492,gcp_logging,2026-02-08T23:22:44Z,2026-02-08T23:21:00Z,104.1,aws-ec2-007,ERROR,Certificate renewal completed
+LOG-0493,syslog,2026-02-12T16:49:43+01:00,2026-02-12T16:49:00Z,43.8,aws-ec2-011,WARN,Memory allocation failure on node
+LOG-0494,cloudwatch,2026-01-29T21:10:01-05:00,2026-01-29T21:09:00Z,61.9,aws-ec2-056,ERROR,Failed to resolve DNS for endpoint
+LOG-0495,syslog,2026-0227 16:12,2026-02-27T16:11:00Z,100.7,az-vm-142,ERROR,Auto-scaling triggered: adding 2 instances
+LOG-0496,syslog,2026/01/06 18:33,2026-01-06T18:33:00Z,40.1,az-vm-178,ERROR,Disk utilization exceeded 90%
+LOG-0497,gcp_logging,2026/01/02 15:58,2026-01-02T15:59:00Z,-4.0,aws-ec2-084,ERROR,Backup completed successfully
+LOG-0498,app_log,2026-02-06T02:49:32-05:00,2026-02-06T02:51:00Z,-87.2,az-vm-157,INFO,Memory allocation failure on node
+LOG-0499,app_log,2026/02/15 21:54,2026-02-15T21:53:00Z,75.1,aws-ec2-080,INFO,Certificate renewal completed
+LOG-0500,syslog,2026-0119 23:13,2026-01-19T23:12:00Z,115.1,az-vm-128,DEBUG,Memory allocation failure on node

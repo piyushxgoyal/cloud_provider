@@ -1,0 +1,55 @@
+SKU_ID,Service,Cloud_Provider,SKU_Description,Unit,Price_Per_Unit,Price_Currency,Price_Version,Effective_From,Effective_To
+EC2-t3.medium,Compute,AWS,"2 vCPU, 4 GB RAM",seconds,0.0196,USD,v1,2026-01-01,2026-01-31
+EC2-t3.medium,Compute,AWS,"2 vCPU, 4 GB RAM",seconds,0.0206,USD,v2,2026-02-01,2026-02-28
+EC2-t3.medium,Compute,AWS,"2 vCPU, 4 GB RAM",seconds,0.0216,USD,v3,2026-03-01,2026-03-31
+EC2-t3.large,Compute,AWS,"2 vCPU, 8 GB RAM",seconds,0.0232,USD,v1,2026-01-01,2026-01-31
+EC2-t3.large,Compute,AWS,"2 vCPU, 8 GB RAM",seconds,0.0244,USD,v2,2026-02-01,2026-02-28
+EC2-t3.large,Compute,AWS,"2 vCPU, 8 GB RAM",seconds,0.0255,USD,v3,2026-03-01,2026-03-31
+EC2-t3.xlarge,Compute,AWS,"4 vCPU, 16 GB RAM",seconds,0.0419,USD,v1,2026-01-01,2026-01-31
+EC2-t3.xlarge,Compute,AWS,"4 vCPU, 16 GB RAM",seconds,0.044,USD,v2,2026-02-01,2026-02-28
+EC2-t3.xlarge,Compute,AWS,"4 vCPU, 16 GB RAM",seconds,0.0461,USD,v3,2026-03-01,2026-03-31
+S3-Standard,Storage,AWS,General purpose storage,GB,0.009,USD,v1,2026-01-01,2026-01-31
+S3-Standard,Storage,AWS,General purpose storage,GB,0.0095,USD,v2,2026-02-01,2026-02-28
+S3-Standard,Storage,AWS,General purpose storage,GB,0.0099,USD,v3,2026-03-01,2026-03-31
+S3-IA,Storage,AWS,Infrequent access storage,GB,0.0184,USD,v1,2026-01-01,2026-01-31
+S3-IA,Storage,AWS,Infrequent access storage,GB,0.0193,USD,v2,2026-02-01,2026-02-28
+S3-IA,Storage,AWS,Infrequent access storage,GB,0.0202,USD,v3,2026-03-01,2026-03-31
+RDS-db.m5.large,Database,AWS,"2 vCPU, 8 GB RAM DB",seconds,0.0338,USD,v1,2026-01-01,2026-01-31
+RDS-db.m5.large,Database,AWS,"2 vCPU, 8 GB RAM DB",seconds,0.0355,USD,v2,2026-02-01,2026-02-28
+RDS-db.m5.large,Database,AWS,"2 vCPU, 8 GB RAM DB",seconds,0.0372,USD,v3,2026-03-01,2026-03-31
+VM-Standard_D2s,Compute,Azure,"2 vCPU, 8 GB RAM",seconds,0.0354,USD,v1,2026-01-01,2026-01-31
+VM-Standard_D2s,Compute,Azure,"2 vCPU, 8 GB RAM",seconds,0.0372,USD,v2,2026-02-01,2026-02-28
+VM-Standard_D2s,Compute,Azure,"2 vCPU, 8 GB RAM",seconds,0.0389,USD,v3,2026-03-01,2026-03-31
+VM-Standard_D4s,Compute,Azure,"4 vCPU, 16 GB RAM",seconds,0.0345,USD,v1,2026-01-01,2026-01-31
+VM-Standard_D4s,Compute,Azure,"4 vCPU, 16 GB RAM",seconds,0.0362,USD,v2,2026-02-01,2026-02-28
+VM-Standard_D4s,Compute,Azure,"4 vCPU, 16 GB RAM",seconds,0.038,USD,v3,2026-03-01,2026-03-31
+VM-Standard_D8s,Compute,Azure,"8 vCPU, 32 GB RAM",seconds,0.0045,USD,v1,2026-01-01,2026-01-31
+VM-Standard_D8s,Compute,Azure,"8 vCPU, 32 GB RAM",seconds,0.0047,USD,v2,2026-02-01,2026-02-28
+VM-Standard_D8s,Compute,Azure,"8 vCPU, 32 GB RAM",seconds,0.005,USD,v3,2026-03-01,2026-03-31
+Blob-Hot,Storage,Azure,Frequently accessed storage,GB,0.0321,USD,v1,2026-01-01,2026-01-31
+Blob-Hot,Storage,Azure,Frequently accessed storage,GB,0.0337,USD,v2,2026-02-01,2026-02-28
+Blob-Hot,Storage,Azure,Frequently accessed storage,GB,0.0353,USD,v3,2026-03-01,2026-03-31
+Blob-Cool,Storage,Azure,Infrequent access storage,GB,0.0272,USD,v1,2026-01-01,2026-01-31
+Blob-Cool,Storage,Azure,Infrequent access storage,GB,0.0286,USD,v2,2026-02-01,2026-02-28
+Blob-Cool,Storage,Azure,Infrequent access storage,GB,0.0299,USD,v3,2026-03-01,2026-03-31
+SQLDb-S2,Database,Azure,Standard tier database,seconds,0.013,USD,v1,2026-01-01,2026-01-31
+SQLDb-S2,Database,Azure,Standard tier database,seconds,0.0137,USD,v2,2026-02-01,2026-02-28
+SQLDb-S2,Database,Azure,Standard tier database,seconds,0.0143,USD,v3,2026-03-01,2026-03-31
+GCE-n1-standard-2,Compute,GCP,"2 vCPU, 7.5 GB RAM",seconds,0.0237,USD,v1,2026-01-01,2026-01-31
+GCE-n1-standard-2,Compute,GCP,"2 vCPU, 7.5 GB RAM",seconds,0.0249,USD,v2,2026-02-01,2026-02-28
+GCE-n1-standard-2,Compute,GCP,"2 vCPU, 7.5 GB RAM",seconds,0.0261,USD,v3,2026-03-01,2026-03-31
+GCE-n1-standard-4,Compute,GCP,"4 vCPU, 15 GB RAM",seconds,0.0142,USD,v1,2026-01-01,2026-01-31
+GCE-n1-standard-4,Compute,GCP,"4 vCPU, 15 GB RAM",seconds,0.0149,USD,v2,2026-02-01,2026-02-28
+GCE-n1-standard-4,Compute,GCP,"4 vCPU, 15 GB RAM",seconds,0.0156,USD,v3,2026-03-01,2026-03-31
+GCE-n1-standard-8,Compute,GCP,"8 vCPU, 30 GB RAM",seconds,0.0463,USD,v1,2026-01-01,2026-01-31
+GCE-n1-standard-8,Compute,GCP,"8 vCPU, 30 GB RAM",seconds,0.0486,USD,v2,2026-02-01,2026-02-28
+GCE-n1-standard-8,Compute,GCP,"8 vCPU, 30 GB RAM",seconds,0.0509,USD,v3,2026-03-01,2026-03-31
+GCS-Standard,Storage,GCP,Multi-region storage,GB,0.0347,USD,v1,2026-01-01,2026-01-31
+GCS-Standard,Storage,GCP,Multi-region storage,GB,0.0364,USD,v2,2026-02-01,2026-02-28
+GCS-Standard,Storage,GCP,Multi-region storage,GB,0.0382,USD,v3,2026-03-01,2026-03-31
+GCS-Nearline,Storage,GCP,Backup/archive storage,GB,0.0118,USD,v1,2026-01-01,2026-01-31
+GCS-Nearline,Storage,GCP,Backup/archive storage,GB,0.0124,USD,v2,2026-02-01,2026-02-28
+GCS-Nearline,Storage,GCP,Backup/archive storage,GB,0.013,USD,v3,2026-03-01,2026-03-31
+CloudSQL-db.standard-2,Database,GCP,"2 vCPU, 7.5 GB RAM DB",seconds,0.0169,USD,v1,2026-01-01,2026-01-31
+CloudSQL-db.standard-2,Database,GCP,"2 vCPU, 7.5 GB RAM DB",seconds,0.0177,USD,v2,2026-02-01,2026-02-28
+CloudSQL-db.standard-2,Database,GCP,"2 vCPU, 7.5 GB RAM DB",seconds,0.0186,USD,v3,2026-03-01,2026-03-31

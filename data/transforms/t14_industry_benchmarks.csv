@@ -1,0 +1,5 @@
+Cloud_Provider_Extracted,Total_Spend,Our_Spend_Pct,Industry_Benchmark_Pct,Variance_vs_Industry
+AWS,2479737.21528,38.6,60.0,-21.4
+AZURE,2295929.2799,35.7,30.0,5.7
+GCP,1532861.21896,23.8,10.0,13.8
+UNKNOWN,119929.54104,1.9,0.0,1.9

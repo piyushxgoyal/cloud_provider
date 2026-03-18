@@ -81,7 +81,7 @@ def run(df, out_dir='data/transforms'):
     
     print("✅ T12 — FinOps KPIs generated")
     print(f"   Calculated Blended Rates for {len(final_kpis)} SKUs")
-    
+    print(merged[['SKU_Clean','Price_Per_Unit']].isna().sum())
     return final_kpis
 
 if __name__ == '__main__':

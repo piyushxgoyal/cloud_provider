@@ -1,0 +1,12 @@
+Resource_ID,Service_Clean,Avg_CPU,Avg_Mem,Total_Cost,Idle_Pings,Total_Pings,Idle_Ratio,Action_Recommended,SKU_Clean,Avg_Effective_Rate,Est_Monthly_Savings_USD,Status
+gcp-inst-082,Compute,4.5,2.9,874.7125,1,1,1.0,Terminate,VM-Standard_D8s,0.01568,40642.56,Open
+az-vm-106,Database,1.0,5.2,882.65,1,1,1.0,Terminate,RDS-db.m5.large,0.01212,31415.04,Open
+gcp-inst-201,Database,9.3,6.8,679.9326,2,2,1.0,Terminate,RDS-db.m5.large,0.01212,31415.04,Open
+az-vm-065,Compute,1.6,1.0,17.8476,1,1,1.0,Terminate,GCE-n1-standard-2,0.0098,25401.6,Open
+az-vm-023,Compute,5.5,0.9,35.98284,1,1,1.0,Terminate,GCE-n1-standard-2,0.0098,25401.6,Open
+aws-ec2-158,Compute,0.5,7.5,1016.6472,1,1,1.0,Terminate,VM-Standard_D4s,0.00942,24416.64,Open
+az-vm-046,Database,1.2,3.5,1791.0504000000003,1,1,1.0,Terminate,CloudSQL-db.standard-2,0.00843,21850.56,Open
+aws-ec2-258,Database,1.4,3.1,8.696159999999999,1,1,1.0,Terminate,CloudSQL-db.standard-2,0.00843,21850.56,Open
+az-vm-055,Compute,7.4,1.5,2266.4674,2,2,1.0,Terminate,GCE-n1-standard-4,0.00753,19517.76,Open
+gcp-inst-264,Compute,1.1,3.8,1310.64,1,1,1.0,Terminate,GCE-n1-standard-4,0.00753,19517.76,Open
+az-vm-183,Database,4.3,0.8,13.336800000000002,1,1,1.0,Terminate,GCE-n1-standard-4,0.00753,19517.76,Open

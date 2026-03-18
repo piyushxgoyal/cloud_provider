@@ -1,0 +1,38 @@
+{
+  "top_5_accounts": [
+    {
+      "account": "AZ-ACCT-031",
+      "cost_usd": 251324.59
+    },
+    {
+      "account": "AWS-ACCT-017",
+      "cost_usd": 249230.68
+    },
+    {
+      "account": "AZ-ACCT-033",
+      "cost_usd": 214802.16
+    },
+    {
+      "account": "AWS-ACCT-005",
+      "cost_usd": 212363.62
+    },
+    {
+      "account": "AZ-ACCT-024",
+      "cost_usd": 205543.36
+    }
+  ],
+  "top_3_services": [
+    {
+      "service": "Compute",
+      "cost_usd": 3077214.58
+    },
+    {
+      "service": "Database",
+      "cost_usd": 2938875.74
+    },
+    {
+      "service": "Storage",
+      "cost_usd": 412366.93
+    }
+  ]
+}

@@ -20,8 +20,21 @@ def run(df, out_dir='data/transforms'):
         
     # Infer provider from SKU or Region if canonical Cloud_Provider isn't directly on row
     # We mapped Account_ID -> Cloud_Provider in S01 theoretically, but we can extract from Account_ID prefix
-    df['Cloud_Provider_Extracted'] = df['Account_ID'].str.split('-').str[0].str.upper()
-    
+    # df['Cloud_Provider_Extracted'] = df['Account_ID'].str.split('-').str[0].str.upper()
+    def extract_provider(acc):
+        acc = str(acc).upper().strip()
+        
+        if 'AWS' in acc:
+            return 'AWS'
+        elif 'AZ' in acc:
+            return 'AZURE'
+        elif 'GCP' in acc:
+            return 'GCP'
+        else:
+            return 'UNKNOWN'
+
+    df['Cloud_Provider_Extracted'] = df['Account_ID'].apply(extract_provider)
+    print('updated')
     # Fix 'AZ' -> 'AZURE'
     df['Cloud_Provider_Extracted'] = df['Cloud_Provider_Extracted'].replace({'AZ': 'AZURE'})
     

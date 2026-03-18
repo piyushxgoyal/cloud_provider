@@ -1,0 +1,4 @@
+Affected_Service,Incident_Count,MTTR_Minutes,Max_Downtime
+Compute,3,1970.0,2700.0
+Database,3,1700.0,2700.0
+Storage,1,960.0,960.0

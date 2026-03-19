@@ -2,3 +2,7 @@ venv
 Cloud_Service_Providers_UseCase.pdf
 clean.ipynb
 transform_notebook_init.py
+
+# Python cache
+__pycache__/
+*.py[cod]

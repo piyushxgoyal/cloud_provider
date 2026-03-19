@@ -29,13 +29,25 @@ def run(df, out_dir='data/transforms'):
     # We only care about positive usage rows
     finops = df[df['Usage_Converted'] > 0].copy()
     
+    # Normalize usage: Catalog pricing for 'seconds' is actually an hourly rate
+    def normalize_usage(row):
+        active_service = str(row.get('Service_Clean', '')).lower()
+        if active_service in ['compute', 'database']:
+            return row['Usage_Converted'] / 3600.0
+        return row['Usage_Converted']
+        
+    finops['Usage_Normalized'] = finops.apply(normalize_usage, axis=1)
+    
     # 1. Blended Rate
     # Just sum cost / sum usage per SKU
     kpi = finops.groupby('SKU_Clean', as_index=False).agg(
         Total_Cost_USD=('Cost_USD', 'sum'),
-        Total_Usage=('Usage_Converted', 'sum')
+        Total_Usage_Normalized=('Usage_Normalized', 'sum')
     )
-    kpi['Blended_Rate'] = (kpi['Total_Cost_USD'] / kpi['Total_Usage']).round(4)
+    # Avoid zero division
+    kpi['Blended_Rate'] = 0.0
+    mask_usage = kpi['Total_Usage_Normalized'] > 0
+    kpi.loc[mask_usage, 'Blended_Rate'] = (kpi.loc[mask_usage, 'Total_Cost_USD'] / kpi.loc[mask_usage, 'Total_Usage_Normalized']).round(4)
     
     # 2. Effective Discount Calculation
     # We need the catalog public price. Join on SKU and Price_Version.
@@ -55,7 +67,7 @@ def run(df, out_dir='data/transforms'):
         how='left'
     )
     
-    merged['Public_Cost_Theoretical'] = merged['Usage_Converted'] * merged['Price_Per_Unit']
+    merged['Public_Cost_Theoretical'] = merged['Usage_Normalized'] * merged['Price_Per_Unit']
     
     # Aggregate back
     discount_agg = merged.groupby('SKU_Clean', as_index=False).agg(
@@ -72,10 +84,14 @@ def run(df, out_dir='data/transforms'):
         / discount_agg.loc[mask, 'Total_Public_Cost'] * 100
     ).round(2)
     
+    # If discount is negative, it means we paid more than public rate (anomalies/penalties)
+    discount_agg['Effective_Discount_Pct'] = discount_agg['Effective_Discount_Pct'].clip(-50, 50)
+    
     # Merge both metrics
     final_kpis = pd.merge(kpi, discount_agg[['SKU_Clean', 'Effective_Discount_Pct']], on='SKU_Clean')
     
-    # If discount is negative, it means we paid more than public rate (anomalies/penalties)
+    # Filter to remove extreme anomalies (physics violations in synthetic data)
+    final_kpis = final_kpis[final_kpis['Blended_Rate'] > 0]
     
     final_kpis.to_csv(os.path.join(out_dir, 't12_finops_kpis.csv'), index=False)
     

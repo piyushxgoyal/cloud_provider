@@ -18,7 +18,7 @@ def run(df, out_dir='data/transforms'):
         print("⚠️ Missing Incident_ID for T06")
         return pd.DataFrame()
         
-    incidents_path = 'data/raw/incidents.csv'
+    incidents_path = 'data/cleaned/cleaned_incidents.csv'
     if not os.path.exists(incidents_path):
         print("⚠️ Cannot find incidents.csv for T06")
         return pd.DataFrame()

@@ -14,7 +14,7 @@ import os
 def run(df, out_dir='data/transforms'):
     os.makedirs(out_dir, exist_ok=True)
     
-    tickets_path = 'data/raw/support_tickets.csv'
+    tickets_path = 'data/cleaned/cleaned_support_tickets.csv'
     if not os.path.exists(tickets_path):
         print("⚠️ Missing support_tickets.csv for T15")
         return pd.DataFrame()

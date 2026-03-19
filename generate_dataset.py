@@ -623,7 +623,7 @@ def generate_log_events(resource_df):
 # ═══════════════════════════════════════════════════════════════
 #  7. USAGE BILLING (MAIN TABLE)
 # ═══════════════════════════════════════════════════════════════
-def generate_usage_billing(resource_df, incident_df, ticket_df):
+def generate_usage_billing(resource_df, incident_df, ticket_df, sku_df):
     print("  Generating usage_billing.csv ...")
 
     resource_ids = resource_df['Resource_ID'].tolist()
@@ -657,8 +657,34 @@ def generate_usage_billing(resource_df, incident_df, ticket_df):
         else:  # GB
             usage_val = round(random.uniform(1, 5000), 2)
 
-        # Cost
-        cost_val = round(usage_val * random.uniform(0.001, 0.1), 2)
+        # ----- GET CATALOG PRICE -----
+        price_version = dirty_price_version(month)
+        price_row = sku_df[
+            (sku_df['SKU_ID'] == sku) &
+            (sku_df['Price_Version'] == price_version)
+        ]
+        
+        if price_row.empty:
+            price_row = sku_df[sku_df['SKU_ID'] == sku]
+            
+        price_per_unit = float(price_row['Price_Per_Unit'].iloc[0])
+        
+        # ----- APPLY DISCOUNT -----
+        discount = random.uniform(0.0, 0.4)  # 0–40%
+        
+        cost_usd = usage_val * price_per_unit * (1 - discount)
+        
+        # small noise
+        cost_usd *= random.uniform(0.98, 1.02)
+        
+        # convert to account currency
+        currency = ACCT_CURRENCY[acct]
+        fx_rate = FX_TO_USD[currency]
+        
+        cost_local = cost_usd / fx_rate if fx_rate else cost_usd
+        
+        # format using existing dirty formatter
+        cost_val = round(cost_local, 2)
 
         # Currency & FX
         currency = ACCT_CURRENCY[acct]
@@ -747,7 +773,7 @@ def generate_usage_billing(resource_df, incident_df, ticket_df):
             'Memory_Util':        mem,
             'Incident_ID':        inc_id,
             'Ticket_ID':          tkt_id,
-            'Price_Version':      dirty_price_version(month),
+            'Price_Version':      price_version,
             'SLA_Event':          dirty_sla_event(),
             'Log_Skew_Seconds':   log_skew,
         }
@@ -795,7 +821,7 @@ def main():
     incident_df = generate_incidents()
     ticket_df   = generate_support_tickets(resource_df)
     log_df      = generate_log_events(resource_df)
-    billing_df  = generate_usage_billing(resource_df, incident_df, ticket_df)
+    billing_df  = generate_usage_billing(resource_df, incident_df, ticket_df, sku_df)
 
     print()
     print("=" * 60)
